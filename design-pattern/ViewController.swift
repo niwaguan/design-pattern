@@ -12,6 +12,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         Client.testFactoryMethod()
+        Client.testAbstructFactory()
     }
 
     override var representedObject: Any? {

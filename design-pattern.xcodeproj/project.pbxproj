@@ -20,6 +20,18 @@
 		D6EA0ABC26D5EDF800C8B871 /* ConcreteCreator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0ABB26D5EDF800C8B871 /* ConcreteCreator2.swift */; };
 		D6EA0ABE26D5EE1700C8B871 /* ConcreteProduct2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0ABD26D5EE1700C8B871 /* ConcreteProduct2.swift */; };
 		D6EA0AC026D5EED000C8B871 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0ABF26D5EED000C8B871 /* Client.swift */; };
+		D6EA0AC426D75E1E00C8B871 /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AC326D75E1E00C8B871 /* Chair.swift */; };
+		D6EA0AC626D75E5F00C8B871 /* Sofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AC526D75E5F00C8B871 /* Sofa.swift */; };
+		D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AC726D75ED900C8B871 /* FurnitureFactory.swift */; };
+		D6EA0ACA26D762AD00C8B871 /* ModernChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AC926D762AD00C8B871 /* ModernChair.swift */; };
+		D6EA0ACC26D762F200C8B871 /* ModernSofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0ACB26D762F200C8B871 /* ModernSofa.swift */; };
+		D6EA0ACE26D7634900C8B871 /* ModernStyleFurnitureFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0ACD26D7634900C8B871 /* ModernStyleFurnitureFactory.swift */; };
+		D6EA0AD026D763C300C8B871 /* ChineseChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0ACF26D763C300C8B871 /* ChineseChair.swift */; };
+		D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AD126D7640000C8B871 /* ChineseSofa.swift */; };
+		D6EA0AD426D7643300C8B871 /* ChineseStyleFurnitureFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AD326D7643300C8B871 /* ChineseStyleFurnitureFactory.swift */; };
+		D6EA0AD626D7647F00C8B871 /* XXXChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AD526D7647F00C8B871 /* XXXChair.swift */; };
+		D6EA0AD826D764BE00C8B871 /* XXXSofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AD726D764BE00C8B871 /* XXXSofa.swift */; };
+		D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AD926D7650200C8B871 /* XXXStyleFurnitureFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +73,19 @@
 		D6EA0ABB26D5EDF800C8B871 /* ConcreteCreator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteCreator2.swift; sourceTree = "<group>"; };
 		D6EA0ABD26D5EE1700C8B871 /* ConcreteProduct2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteProduct2.swift; sourceTree = "<group>"; };
 		D6EA0ABF26D5EED000C8B871 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		D6EA0AC226D75BB400C8B871 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6EA0AC326D75E1E00C8B871 /* Chair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
+		D6EA0AC526D75E5F00C8B871 /* Sofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sofa.swift; sourceTree = "<group>"; };
+		D6EA0AC726D75ED900C8B871 /* FurnitureFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureFactory.swift; sourceTree = "<group>"; };
+		D6EA0AC926D762AD00C8B871 /* ModernChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernChair.swift; sourceTree = "<group>"; };
+		D6EA0ACB26D762F200C8B871 /* ModernSofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSofa.swift; sourceTree = "<group>"; };
+		D6EA0ACD26D7634900C8B871 /* ModernStyleFurnitureFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernStyleFurnitureFactory.swift; sourceTree = "<group>"; };
+		D6EA0ACF26D763C300C8B871 /* ChineseChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseChair.swift; sourceTree = "<group>"; };
+		D6EA0AD126D7640000C8B871 /* ChineseSofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseSofa.swift; sourceTree = "<group>"; };
+		D6EA0AD326D7643300C8B871 /* ChineseStyleFurnitureFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseStyleFurnitureFactory.swift; sourceTree = "<group>"; };
+		D6EA0AD526D7647F00C8B871 /* XXXChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXXChair.swift; sourceTree = "<group>"; };
+		D6EA0AD726D764BE00C8B871 /* XXXSofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXXSofa.swift; sourceTree = "<group>"; };
+		D6EA0AD926D7650200C8B871 /* XXXStyleFurnitureFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXXStyleFurnitureFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				D6EA0ABF26D5EED000C8B871 /* Client.swift */,
+				D6EA0AC126D7590F00C8B871 /* AbstractFactory */,
 				D6EA0AB126D5EBDE00C8B871 /* FactoryMethod */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
@@ -153,6 +179,26 @@
 				D6EA0ABD26D5EE1700C8B871 /* ConcreteProduct2.swift */,
 			);
 			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		D6EA0AC126D7590F00C8B871 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA0AC226D75BB400C8B871 /* README.md */,
+				D6EA0AC326D75E1E00C8B871 /* Chair.swift */,
+				D6EA0AC926D762AD00C8B871 /* ModernChair.swift */,
+				D6EA0ACF26D763C300C8B871 /* ChineseChair.swift */,
+				D6EA0AD526D7647F00C8B871 /* XXXChair.swift */,
+				D6EA0AC526D75E5F00C8B871 /* Sofa.swift */,
+				D6EA0ACB26D762F200C8B871 /* ModernSofa.swift */,
+				D6EA0AD126D7640000C8B871 /* ChineseSofa.swift */,
+				D6EA0AD726D764BE00C8B871 /* XXXSofa.swift */,
+				D6EA0AC726D75ED900C8B871 /* FurnitureFactory.swift */,
+				D6EA0ACD26D7634900C8B871 /* ModernStyleFurnitureFactory.swift */,
+				D6EA0AD326D7643300C8B871 /* ChineseStyleFurnitureFactory.swift */,
+				D6EA0AD926D7650200C8B871 /* XXXStyleFurnitureFactory.swift */,
+			);
+			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,15 +330,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6EA0AC626D75E5F00C8B871 /* Sofa.swift in Sources */,
+				D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */,
+				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
+				D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */,
 				D6EA0AB426D5EC5000C8B871 /* Creator.swift in Sources */,
+				D6EA0AD026D763C300C8B871 /* ChineseChair.swift in Sources */,
+				D6EA0ACC26D762F200C8B871 /* ModernSofa.swift in Sources */,
 				D6EA0AB626D5EC8500C8B871 /* Product.swift in Sources */,
 				D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */,
 				D646A43526D5DBAC005876F3 /* AppDelegate.swift in Sources */,
 				D6EA0ABA26D5ED3A00C8B871 /* ConcreteProduct1.swift in Sources */,
+				D6EA0ACA26D762AD00C8B871 /* ModernChair.swift in Sources */,
+				D6EA0AD426D7643300C8B871 /* ChineseStyleFurnitureFactory.swift in Sources */,
+				D6EA0ACE26D7634900C8B871 /* ModernStyleFurnitureFactory.swift in Sources */,
+				D6EA0AD826D764BE00C8B871 /* XXXSofa.swift in Sources */,
 				D6EA0AB826D5ECFF00C8B871 /* ConcreteCreator1.swift in Sources */,
 				D6EA0ABC26D5EDF800C8B871 /* ConcreteCreator2.swift in Sources */,
+				D6EA0AD626D7647F00C8B871 /* XXXChair.swift in Sources */,
 				D6EA0ABE26D5EE1700C8B871 /* ConcreteProduct2.swift in Sources */,
 				D6EA0AC026D5EED000C8B871 /* Client.swift in Sources */,
+				D6EA0AC426D75E1E00C8B871 /* Chair.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
