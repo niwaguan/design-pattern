@@ -32,6 +32,13 @@
 		D6EA0AD626D7647F00C8B871 /* XXXChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AD526D7647F00C8B871 /* XXXChair.swift */; };
 		D6EA0AD826D764BE00C8B871 /* XXXSofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AD726D764BE00C8B871 /* XXXSofa.swift */; };
 		D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AD926D7650200C8B871 /* XXXStyleFurnitureFactory.swift */; };
+		D6EA0ADE26D8AF9E00C8B871 /* HouseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0ADD26D8AF9E00C8B871 /* HouseBuilder.swift */; };
+		D6EA0AE026D8B03A00C8B871 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0ADF26D8B03A00C8B871 /* House.swift */; };
+		D6EA0AE226D8EED300C8B871 /* SmallHouseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AE126D8EED300C8B871 /* SmallHouseBuilder.swift */; };
+		D6EA0AE426D8EF2F00C8B871 /* SmallHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AE326D8EF2F00C8B871 /* SmallHouse.swift */; };
+		D6EA0AE626D8F09200C8B871 /* PalaceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AE526D8F09200C8B871 /* PalaceBuilder.swift */; };
+		D6EA0AE826D8F0B400C8B871 /* Palace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AE726D8F0B400C8B871 /* Palace.swift */; };
+		D6EA0AEA26D904CB00C8B871 /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AE926D904CB00C8B871 /* Director.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +93,14 @@
 		D6EA0AD526D7647F00C8B871 /* XXXChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXXChair.swift; sourceTree = "<group>"; };
 		D6EA0AD726D764BE00C8B871 /* XXXSofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXXSofa.swift; sourceTree = "<group>"; };
 		D6EA0AD926D7650200C8B871 /* XXXStyleFurnitureFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXXStyleFurnitureFactory.swift; sourceTree = "<group>"; };
+		D6EA0ADC26D8A97300C8B871 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6EA0ADD26D8AF9E00C8B871 /* HouseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseBuilder.swift; sourceTree = "<group>"; };
+		D6EA0ADF26D8B03A00C8B871 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		D6EA0AE126D8EED300C8B871 /* SmallHouseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallHouseBuilder.swift; sourceTree = "<group>"; };
+		D6EA0AE326D8EF2F00C8B871 /* SmallHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallHouse.swift; sourceTree = "<group>"; };
+		D6EA0AE526D8F09200C8B871 /* PalaceBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalaceBuilder.swift; sourceTree = "<group>"; };
+		D6EA0AE726D8F0B400C8B871 /* Palace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palace.swift; sourceTree = "<group>"; };
+		D6EA0AE926D904CB00C8B871 /* Director.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +154,7 @@
 				D6EA0ABF26D5EED000C8B871 /* Client.swift */,
 				D6EA0AC126D7590F00C8B871 /* AbstractFactory */,
 				D6EA0AB126D5EBDE00C8B871 /* FactoryMethod */,
+				D6EA0ADB26D8A95600C8B871 /* Builder */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -199,6 +215,21 @@
 				D6EA0AD926D7650200C8B871 /* XXXStyleFurnitureFactory.swift */,
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		D6EA0ADB26D8A95600C8B871 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA0ADC26D8A97300C8B871 /* README.md */,
+				D6EA0ADD26D8AF9E00C8B871 /* HouseBuilder.swift */,
+				D6EA0AE126D8EED300C8B871 /* SmallHouseBuilder.swift */,
+				D6EA0AE526D8F09200C8B871 /* PalaceBuilder.swift */,
+				D6EA0ADF26D8B03A00C8B871 /* House.swift */,
+				D6EA0AE326D8EF2F00C8B871 /* SmallHouse.swift */,
+				D6EA0AE726D8F0B400C8B871 /* Palace.swift */,
+				D6EA0AE926D904CB00C8B871 /* Director.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,8 +365,14 @@
 				D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */,
 				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
 				D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */,
+				D6EA0AE026D8B03A00C8B871 /* House.swift in Sources */,
 				D6EA0AB426D5EC5000C8B871 /* Creator.swift in Sources */,
+				D6EA0AE226D8EED300C8B871 /* SmallHouseBuilder.swift in Sources */,
+				D6EA0AE626D8F09200C8B871 /* PalaceBuilder.swift in Sources */,
+				D6EA0AE426D8EF2F00C8B871 /* SmallHouse.swift in Sources */,
+				D6EA0AEA26D904CB00C8B871 /* Director.swift in Sources */,
 				D6EA0AD026D763C300C8B871 /* ChineseChair.swift in Sources */,
+				D6EA0ADE26D8AF9E00C8B871 /* HouseBuilder.swift in Sources */,
 				D6EA0ACC26D762F200C8B871 /* ModernSofa.swift in Sources */,
 				D6EA0AB626D5EC8500C8B871 /* Product.swift in Sources */,
 				D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */,
@@ -349,6 +386,7 @@
 				D6EA0ABC26D5EDF800C8B871 /* ConcreteCreator2.swift in Sources */,
 				D6EA0AD626D7647F00C8B871 /* XXXChair.swift in Sources */,
 				D6EA0ABE26D5EE1700C8B871 /* ConcreteProduct2.swift in Sources */,
+				D6EA0AE826D8F0B400C8B871 /* Palace.swift in Sources */,
 				D6EA0AC026D5EED000C8B871 /* Client.swift in Sources */,
 				D6EA0AC426D75E1E00C8B871 /* Chair.swift in Sources */,
 			);
