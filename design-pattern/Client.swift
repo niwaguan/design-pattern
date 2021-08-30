@@ -66,4 +66,14 @@ class Client {
         let antherHouse = smallHouseBuilder.getResult()
         print("嗯，这样可以更简洁。我有一个房子：\(antherHouse)\n")
     }
+    
+    static func testPrototype() {
+        print("😁原型模式")
+        let cat = Cat(name: "花花", color: "White")
+        print(cat)
+        
+        if let copy = cat.copy() as? Cat {
+            print(copy)
+        }
+    }
 }

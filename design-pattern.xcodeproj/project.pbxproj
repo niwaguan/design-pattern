@@ -39,6 +39,8 @@
 		D6EA0AE626D8F09200C8B871 /* PalaceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AE526D8F09200C8B871 /* PalaceBuilder.swift */; };
 		D6EA0AE826D8F0B400C8B871 /* Palace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AE726D8F0B400C8B871 /* Palace.swift */; };
 		D6EA0AEA26D904CB00C8B871 /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AE926D904CB00C8B871 /* Director.swift */; };
+		D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AF026DC7CCE00C8B871 /* Animal.swift */; };
+		D6EA0AF326DC7E0200C8B871 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AF226DC7E0200C8B871 /* Cat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,9 @@
 		D6EA0AE526D8F09200C8B871 /* PalaceBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalaceBuilder.swift; sourceTree = "<group>"; };
 		D6EA0AE726D8F0B400C8B871 /* Palace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palace.swift; sourceTree = "<group>"; };
 		D6EA0AE926D904CB00C8B871 /* Director.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
+		D6EA0AEF26DC73CD00C8B871 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6EA0AF026DC7CCE00C8B871 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		D6EA0AF226DC7E0200C8B871 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +160,7 @@
 				D6EA0AC126D7590F00C8B871 /* AbstractFactory */,
 				D6EA0AB126D5EBDE00C8B871 /* FactoryMethod */,
 				D6EA0ADB26D8A95600C8B871 /* Builder */,
+				D6EA0AEE26DC737D00C8B871 /* Prototype */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -230,6 +236,16 @@
 				D6EA0AE926D904CB00C8B871 /* Director.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		D6EA0AEE26DC737D00C8B871 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA0AEF26DC73CD00C8B871 /* README.md */,
+				D6EA0AF026DC7CCE00C8B871 /* Animal.swift */,
+				D6EA0AF226DC7E0200C8B871 /* Cat.swift */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,7 +379,9 @@
 			files = (
 				D6EA0AC626D75E5F00C8B871 /* Sofa.swift in Sources */,
 				D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */,
+				D6EA0AF326DC7E0200C8B871 /* Cat.swift in Sources */,
 				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
+				D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */,
 				D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */,
 				D6EA0AE026D8B03A00C8B871 /* House.swift in Sources */,
 				D6EA0AB426D5EC5000C8B871 /* Creator.swift in Sources */,
