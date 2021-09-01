@@ -76,4 +76,13 @@ class Client {
             print(copy)
         }
     }
+    
+    static func testSingleton() {
+        print("😁单例模式")
+        Singleton.shared.someBusinessLogic()
+        let copy = Singleton.shared.copy() as! Singleton
+        if copy === Singleton.shared {
+            print("我想拷贝单例对象，但没有成功。")
+        }
+    }
 }

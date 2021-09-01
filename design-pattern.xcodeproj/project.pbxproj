@@ -41,6 +41,7 @@
 		D6EA0AEA26D904CB00C8B871 /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AE926D904CB00C8B871 /* Director.swift */; };
 		D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AF026DC7CCE00C8B871 /* Animal.swift */; };
 		D6EA0AF326DC7E0200C8B871 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AF226DC7E0200C8B871 /* Cat.swift */; };
+		D6EA0AF726DCAD0A00C8B871 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AF626DCAD0A00C8B871 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,8 @@
 		D6EA0AEF26DC73CD00C8B871 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6EA0AF026DC7CCE00C8B871 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		D6EA0AF226DC7E0200C8B871 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		D6EA0AF526DCAB8E00C8B871 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6EA0AF626DCAD0A00C8B871 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,7 @@
 				D6EA0AB126D5EBDE00C8B871 /* FactoryMethod */,
 				D6EA0ADB26D8A95600C8B871 /* Builder */,
 				D6EA0AEE26DC737D00C8B871 /* Prototype */,
+				D6EA0AF426DCAB6C00C8B871 /* Singleton */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -246,6 +250,15 @@
 				D6EA0AF226DC7E0200C8B871 /* Cat.swift */,
 			);
 			path = Prototype;
+			sourceTree = "<group>";
+		};
+		D6EA0AF426DCAB6C00C8B871 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA0AF526DCAB8E00C8B871 /* README.md */,
+				D6EA0AF626DCAD0A00C8B871 /* Singleton.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +393,7 @@
 				D6EA0AC626D75E5F00C8B871 /* Sofa.swift in Sources */,
 				D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */,
 				D6EA0AF326DC7E0200C8B871 /* Cat.swift in Sources */,
+				D6EA0AF726DCAD0A00C8B871 /* Singleton.swift in Sources */,
 				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
 				D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */,
 				D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */,

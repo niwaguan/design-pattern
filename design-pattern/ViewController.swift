@@ -11,6 +11,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Client.testSingleton()
         Client.testPrototype()
         Client.testBuiler()
         Client.testAbstructFactory()
