@@ -85,4 +85,12 @@ class Client {
             print("我想拷贝单例对象，但没有成功。")
         }
     }
+    
+    static func testAdapter() {
+        print("😁适配器模式")
+        print("我有一个XMLProcesser，它可以和满足接口 XMLAnalyzer 的对象一起合作")
+        let xmlProcessor = XMLProcesser()
+        xmlProcessor.analyzer = JSONServiceAdapter()
+        xmlProcessor.processXML()
+    }
 }

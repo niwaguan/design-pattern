@@ -42,6 +42,10 @@
 		D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AF026DC7CCE00C8B871 /* Animal.swift */; };
 		D6EA0AF326DC7E0200C8B871 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AF226DC7E0200C8B871 /* Cat.swift */; };
 		D6EA0AF726DCAD0A00C8B871 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AF626DCAD0A00C8B871 /* Singleton.swift */; };
+		D6EA0B2C26DF407100C8B871 /* XMLProcesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0B2B26DF407100C8B871 /* XMLProcesser.swift */; };
+		D6EA0B2E26DF411500C8B871 /* XMLAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0B2D26DF411500C8B871 /* XMLAnalyzer.swift */; };
+		D6EA0B3026DF427000C8B871 /* JSONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0B2F26DF427000C8B871 /* JSONService.swift */; };
+		D6EA0B3226DF447300C8B871 /* JSONServiceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0B3126DF447300C8B871 /* JSONServiceAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +113,11 @@
 		D6EA0AF226DC7E0200C8B871 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		D6EA0AF526DCAB8E00C8B871 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6EA0AF626DCAD0A00C8B871 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		D6EA0B2A26DF3F6600C8B871 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6EA0B2B26DF407100C8B871 /* XMLProcesser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLProcesser.swift; sourceTree = "<group>"; };
+		D6EA0B2D26DF411500C8B871 /* XMLAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLAnalyzer.swift; sourceTree = "<group>"; };
+		D6EA0B2F26DF427000C8B871 /* JSONService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONService.swift; sourceTree = "<group>"; };
+		D6EA0B3126DF447300C8B871 /* JSONServiceAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONServiceAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +174,7 @@
 				D6EA0ADB26D8A95600C8B871 /* Builder */,
 				D6EA0AEE26DC737D00C8B871 /* Prototype */,
 				D6EA0AF426DCAB6C00C8B871 /* Singleton */,
+				D6EA0B2926DF3F4300C8B871 /* Adapter */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -259,6 +269,18 @@
 				D6EA0AF626DCAD0A00C8B871 /* Singleton.swift */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		D6EA0B2926DF3F4300C8B871 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA0B2A26DF3F6600C8B871 /* README.md */,
+				D6EA0B2B26DF407100C8B871 /* XMLProcesser.swift */,
+				D6EA0B2D26DF411500C8B871 /* XMLAnalyzer.swift */,
+				D6EA0B3126DF447300C8B871 /* JSONServiceAdapter.swift */,
+				D6EA0B2F26DF427000C8B871 /* JSONService.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +417,7 @@
 				D6EA0AF326DC7E0200C8B871 /* Cat.swift in Sources */,
 				D6EA0AF726DCAD0A00C8B871 /* Singleton.swift in Sources */,
 				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
+				D6EA0B2E26DF411500C8B871 /* XMLAnalyzer.swift in Sources */,
 				D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */,
 				D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */,
 				D6EA0AE026D8B03A00C8B871 /* House.swift in Sources */,
@@ -406,12 +429,15 @@
 				D6EA0AD026D763C300C8B871 /* ChineseChair.swift in Sources */,
 				D6EA0ADE26D8AF9E00C8B871 /* HouseBuilder.swift in Sources */,
 				D6EA0ACC26D762F200C8B871 /* ModernSofa.swift in Sources */,
+				D6EA0B3026DF427000C8B871 /* JSONService.swift in Sources */,
 				D6EA0AB626D5EC8500C8B871 /* Product.swift in Sources */,
 				D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */,
 				D646A43526D5DBAC005876F3 /* AppDelegate.swift in Sources */,
 				D6EA0ABA26D5ED3A00C8B871 /* ConcreteProduct1.swift in Sources */,
+				D6EA0B2C26DF407100C8B871 /* XMLProcesser.swift in Sources */,
 				D6EA0ACA26D762AD00C8B871 /* ModernChair.swift in Sources */,
 				D6EA0AD426D7643300C8B871 /* ChineseStyleFurnitureFactory.swift in Sources */,
+				D6EA0B3226DF447300C8B871 /* JSONServiceAdapter.swift in Sources */,
 				D6EA0ACE26D7634900C8B871 /* ModernStyleFurnitureFactory.swift in Sources */,
 				D6EA0AD826D764BE00C8B871 /* XXXSofa.swift in Sources */,
 				D6EA0AB826D5ECFF00C8B871 /* ConcreteCreator1.swift in Sources */,
