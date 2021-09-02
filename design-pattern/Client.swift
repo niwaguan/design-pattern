@@ -93,4 +93,10 @@ class Client {
         xmlProcessor.analyzer = JSONServiceAdapter()
         xmlProcessor.processXML()
     }
+    
+    static func testBridge() {
+        print("😁桥接模式")
+        let shape = Square()
+        print(shape)
+    }
 }

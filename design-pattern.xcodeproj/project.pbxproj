@@ -13,6 +13,12 @@
 		D646A43C26D5DBAD005876F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646A43A26D5DBAD005876F3 /* Main.storyboard */; };
 		D646A44826D5DBAD005876F3 /* design_patternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A44726D5DBAD005876F3 /* design_patternTests.swift */; };
 		D646A45326D5DBAD005876F3 /* design_patternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A45226D5DBAD005876F3 /* design_patternUITests.swift */; };
+		D6C5F1F426E0CF120041D621 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F1F326E0CF120041D621 /* Shape.swift */; };
+		D6C5F1F626E0CF940041D621 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F1F526E0CF940041D621 /* Color.swift */; };
+		D6C5F1F826E0CFDE0041D621 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F1F726E0CFDE0041D621 /* Square.swift */; };
+		D6C5F1FA26E0CFFC0041D621 /* RedColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F1F926E0CFFC0041D621 /* RedColor.swift */; };
+		D6C5F1FC26E0D0A80041D621 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F1FB26E0D0A80041D621 /* Circle.swift */; };
+		D6C5F1FE26E0D10E0041D621 /* BlueColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F1FD26E0D10E0041D621 /* BlueColor.swift */; };
 		D6EA0AB426D5EC5000C8B871 /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AB326D5EC5000C8B871 /* Creator.swift */; };
 		D6EA0AB626D5EC8500C8B871 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AB526D5EC8500C8B871 /* Product.swift */; };
 		D6EA0AB826D5ECFF00C8B871 /* ConcreteCreator1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA0AB726D5ECFF00C8B871 /* ConcreteCreator1.swift */; };
@@ -79,6 +85,13 @@
 		D646A44E26D5DBAD005876F3 /* design-patternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "design-patternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646A45226D5DBAD005876F3 /* design_patternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = design_patternUITests.swift; sourceTree = "<group>"; };
 		D646A45426D5DBAD005876F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C5F1F026E0CA9E0041D621 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6C5F1F326E0CF120041D621 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		D6C5F1F526E0CF940041D621 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D6C5F1F726E0CFDE0041D621 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		D6C5F1F926E0CFFC0041D621 /* RedColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedColor.swift; sourceTree = "<group>"; };
+		D6C5F1FB26E0D0A80041D621 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		D6C5F1FD26E0D10E0041D621 /* BlueColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueColor.swift; sourceTree = "<group>"; };
 		D6EA0AB226D5EC0D00C8B871 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6EA0AB326D5EC5000C8B871 /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
 		D6EA0AB526D5EC8500C8B871 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -175,6 +188,7 @@
 				D6EA0AEE26DC737D00C8B871 /* Prototype */,
 				D6EA0AF426DCAB6C00C8B871 /* Singleton */,
 				D6EA0B2926DF3F4300C8B871 /* Adapter */,
+				D6C5F1EF26E0CA6E0041D621 /* Bridge */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -201,6 +215,20 @@
 				D646A45426D5DBAD005876F3 /* Info.plist */,
 			);
 			path = "design-patternUITests";
+			sourceTree = "<group>";
+		};
+		D6C5F1EF26E0CA6E0041D621 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				D6C5F1F026E0CA9E0041D621 /* README.md */,
+				D6C5F1F326E0CF120041D621 /* Shape.swift */,
+				D6C5F1F726E0CFDE0041D621 /* Square.swift */,
+				D6C5F1FB26E0D0A80041D621 /* Circle.swift */,
+				D6C5F1F526E0CF940041D621 /* Color.swift */,
+				D6C5F1F926E0CFFC0041D621 /* RedColor.swift */,
+				D6C5F1FD26E0D10E0041D621 /* BlueColor.swift */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 		D6EA0AB126D5EBDE00C8B871 /* FactoryMethod */ = {
@@ -414,6 +442,8 @@
 			files = (
 				D6EA0AC626D75E5F00C8B871 /* Sofa.swift in Sources */,
 				D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */,
+				D6C5F1FA26E0CFFC0041D621 /* RedColor.swift in Sources */,
+				D6C5F1FE26E0D10E0041D621 /* BlueColor.swift in Sources */,
 				D6EA0AF326DC7E0200C8B871 /* Cat.swift in Sources */,
 				D6EA0AF726DCAD0A00C8B871 /* Singleton.swift in Sources */,
 				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
@@ -422,11 +452,13 @@
 				D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */,
 				D6EA0AE026D8B03A00C8B871 /* House.swift in Sources */,
 				D6EA0AB426D5EC5000C8B871 /* Creator.swift in Sources */,
+				D6C5F1F626E0CF940041D621 /* Color.swift in Sources */,
 				D6EA0AE226D8EED300C8B871 /* SmallHouseBuilder.swift in Sources */,
 				D6EA0AE626D8F09200C8B871 /* PalaceBuilder.swift in Sources */,
 				D6EA0AE426D8EF2F00C8B871 /* SmallHouse.swift in Sources */,
 				D6EA0AEA26D904CB00C8B871 /* Director.swift in Sources */,
 				D6EA0AD026D763C300C8B871 /* ChineseChair.swift in Sources */,
+				D6C5F1F826E0CFDE0041D621 /* Square.swift in Sources */,
 				D6EA0ADE26D8AF9E00C8B871 /* HouseBuilder.swift in Sources */,
 				D6EA0ACC26D762F200C8B871 /* ModernSofa.swift in Sources */,
 				D6EA0B3026DF427000C8B871 /* JSONService.swift in Sources */,
@@ -434,6 +466,7 @@
 				D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */,
 				D646A43526D5DBAC005876F3 /* AppDelegate.swift in Sources */,
 				D6EA0ABA26D5ED3A00C8B871 /* ConcreteProduct1.swift in Sources */,
+				D6C5F1FC26E0D0A80041D621 /* Circle.swift in Sources */,
 				D6EA0B2C26DF407100C8B871 /* XMLProcesser.swift in Sources */,
 				D6EA0ACA26D762AD00C8B871 /* ModernChair.swift in Sources */,
 				D6EA0AD426D7643300C8B871 /* ChineseStyleFurnitureFactory.swift in Sources */,
@@ -443,6 +476,7 @@
 				D6EA0AB826D5ECFF00C8B871 /* ConcreteCreator1.swift in Sources */,
 				D6EA0ABC26D5EDF800C8B871 /* ConcreteCreator2.swift in Sources */,
 				D6EA0AD626D7647F00C8B871 /* XXXChair.swift in Sources */,
+				D6C5F1F426E0CF120041D621 /* Shape.swift in Sources */,
 				D6EA0ABE26D5EE1700C8B871 /* ConcreteProduct2.swift in Sources */,
 				D6EA0AE826D8F0B400C8B871 /* Palace.swift in Sources */,
 				D6EA0AC026D5EED000C8B871 /* Client.swift in Sources */,
