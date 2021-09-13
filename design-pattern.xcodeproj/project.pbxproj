@@ -13,6 +13,11 @@
 		D646A43C26D5DBAD005876F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646A43A26D5DBAD005876F3 /* Main.storyboard */; };
 		D646A44826D5DBAD005876F3 /* design_patternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A44726D5DBAD005876F3 /* design_patternTests.swift */; };
 		D646A45326D5DBAD005876F3 /* design_patternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A45226D5DBAD005876F3 /* design_patternUITests.swift */; };
+		D6BAC6A526E1EB9A004FB3F0 /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A426E1EB9A004FB3F0 /* Graphic.swift */; };
+		D6BAC6A726E1EBE0004FB3F0 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A626E1EBE0004FB3F0 /* Dot.swift */; };
+		D6BAC6A926E1EC5D004FB3F0 /* GCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A826E1EC5D004FB3F0 /* GCircle.swift */; };
+		D6BAC6AB26E1ECFD004FB3F0 /* GraphicContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6AA26E1ECFD004FB3F0 /* GraphicContainer.swift */; };
+		D6BAC6AD26E1F35D004FB3F0 /* Editor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6AC26E1F35D004FB3F0 /* Editor.swift */; };
 		D6C5F1F426E0CF120041D621 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F1F326E0CF120041D621 /* Shape.swift */; };
 		D6C5F1F626E0CF940041D621 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F1F526E0CF940041D621 /* Color.swift */; };
 		D6C5F1F826E0CFDE0041D621 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F1F726E0CFDE0041D621 /* Square.swift */; };
@@ -85,6 +90,12 @@
 		D646A44E26D5DBAD005876F3 /* design-patternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "design-patternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646A45226D5DBAD005876F3 /* design_patternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = design_patternUITests.swift; sourceTree = "<group>"; };
 		D646A45426D5DBAD005876F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6BAC6A326E1EA51004FB3F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6BAC6A426E1EB9A004FB3F0 /* Graphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
+		D6BAC6A626E1EBE0004FB3F0 /* Dot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
+		D6BAC6A826E1EC5D004FB3F0 /* GCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCircle.swift; sourceTree = "<group>"; };
+		D6BAC6AA26E1ECFD004FB3F0 /* GraphicContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicContainer.swift; sourceTree = "<group>"; };
+		D6BAC6AC26E1F35D004FB3F0 /* Editor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor.swift; sourceTree = "<group>"; };
 		D6C5F1F026E0CA9E0041D621 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6C5F1F326E0CF120041D621 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		D6C5F1F526E0CF940041D621 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -189,6 +200,7 @@
 				D6EA0AF426DCAB6C00C8B871 /* Singleton */,
 				D6EA0B2926DF3F4300C8B871 /* Adapter */,
 				D6C5F1EF26E0CA6E0041D621 /* Bridge */,
+				D6BAC6A226E1EA2B004FB3F0 /* Composite */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -215,6 +227,19 @@
 				D646A45426D5DBAD005876F3 /* Info.plist */,
 			);
 			path = "design-patternUITests";
+			sourceTree = "<group>";
+		};
+		D6BAC6A226E1EA2B004FB3F0 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				D6BAC6A326E1EA51004FB3F0 /* README.md */,
+				D6BAC6A426E1EB9A004FB3F0 /* Graphic.swift */,
+				D6BAC6A626E1EBE0004FB3F0 /* Dot.swift */,
+				D6BAC6A826E1EC5D004FB3F0 /* GCircle.swift */,
+				D6BAC6AA26E1ECFD004FB3F0 /* GraphicContainer.swift */,
+				D6BAC6AC26E1F35D004FB3F0 /* Editor.swift */,
+			);
+			path = Composite;
 			sourceTree = "<group>";
 		};
 		D6C5F1EF26E0CA6E0041D621 /* Bridge */ = {
@@ -440,13 +465,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6BAC6A526E1EB9A004FB3F0 /* Graphic.swift in Sources */,
 				D6EA0AC626D75E5F00C8B871 /* Sofa.swift in Sources */,
+				D6BAC6AD26E1F35D004FB3F0 /* Editor.swift in Sources */,
 				D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */,
 				D6C5F1FA26E0CFFC0041D621 /* RedColor.swift in Sources */,
 				D6C5F1FE26E0D10E0041D621 /* BlueColor.swift in Sources */,
 				D6EA0AF326DC7E0200C8B871 /* Cat.swift in Sources */,
 				D6EA0AF726DCAD0A00C8B871 /* Singleton.swift in Sources */,
 				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
+				D6BAC6A726E1EBE0004FB3F0 /* Dot.swift in Sources */,
 				D6EA0B2E26DF411500C8B871 /* XMLAnalyzer.swift in Sources */,
 				D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */,
 				D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */,
@@ -455,11 +483,13 @@
 				D6C5F1F626E0CF940041D621 /* Color.swift in Sources */,
 				D6EA0AE226D8EED300C8B871 /* SmallHouseBuilder.swift in Sources */,
 				D6EA0AE626D8F09200C8B871 /* PalaceBuilder.swift in Sources */,
+				D6BAC6A926E1EC5D004FB3F0 /* GCircle.swift in Sources */,
 				D6EA0AE426D8EF2F00C8B871 /* SmallHouse.swift in Sources */,
 				D6EA0AEA26D904CB00C8B871 /* Director.swift in Sources */,
 				D6EA0AD026D763C300C8B871 /* ChineseChair.swift in Sources */,
 				D6C5F1F826E0CFDE0041D621 /* Square.swift in Sources */,
 				D6EA0ADE26D8AF9E00C8B871 /* HouseBuilder.swift in Sources */,
+				D6BAC6AB26E1ECFD004FB3F0 /* GraphicContainer.swift in Sources */,
 				D6EA0ACC26D762F200C8B871 /* ModernSofa.swift in Sources */,
 				D6EA0B3026DF427000C8B871 /* JSONService.swift in Sources */,
 				D6EA0AB626D5EC8500C8B871 /* Product.swift in Sources */,

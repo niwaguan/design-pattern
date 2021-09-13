@@ -99,4 +99,12 @@ class Client {
         let shape = Square()
         print(shape)
     }
+    
+    static func testComposite() {
+        print("😁组合模式")
+        let editor = Editor()
+        editor.addDot(at: Point(x: 3, y: 3))
+        editor.addCircle(at: Point(x: 6, y: 6), radius: 3)
+        editor.draw()
+    }
 }
