@@ -107,4 +107,20 @@ class Client {
         editor.addCircle(at: Point(x: 6, y: 6), radius: 3)
         editor.draw()
     }
+    
+    static func testDecorator() {
+        print("😁装饰者模式")
+        var notifier: Notifier = MailNotifier()
+        let enableSMS = true, enableWechat = true, enableQQ = true
+        if enableSMS {
+            notifier = SMSDecorator(wrapped: notifier)
+        }
+        if enableWechat {
+            notifier = WeChatDecorator(wrapped: notifier)
+        }
+        if enableQQ {
+            notifier = QQDecorator(wrapped: notifier)
+        }
+        notifier.send(message: "快来看啊，iPhone13大降价!")
+    }
 }

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D61CFC6D26F459BE00A325ED /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC6C26F459BE00A325ED /* Notifier.swift */; };
+		D61CFC6F26F45A0700A325ED /* BaseDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC6E26F45A0700A325ED /* BaseDecorator.swift */; };
+		D61CFC7126F45A9E00A325ED /* SMSDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC7026F45A9E00A325ED /* SMSDecorator.swift */; };
+		D61CFC7326F45B2B00A325ED /* WeChatDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC7226F45B2B00A325ED /* WeChatDecorator.swift */; };
+		D61CFC7526F45B9000A325ED /* QQDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC7426F45B9000A325ED /* QQDecorator.swift */; };
+		D61CFC7726F470C300A325ED /* MailNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC7626F470C300A325ED /* MailNotifier.swift */; };
 		D646A43526D5DBAC005876F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43426D5DBAC005876F3 /* AppDelegate.swift */; };
 		D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43626D5DBAC005876F3 /* ViewController.swift */; };
 		D646A43926D5DBAD005876F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D646A43826D5DBAD005876F3 /* Assets.xcassets */; };
@@ -77,6 +83,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D61CFC6C26F459BE00A325ED /* Notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+		D61CFC6E26F45A0700A325ED /* BaseDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDecorator.swift; sourceTree = "<group>"; };
+		D61CFC7026F45A9E00A325ED /* SMSDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSDecorator.swift; sourceTree = "<group>"; };
+		D61CFC7226F45B2B00A325ED /* WeChatDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatDecorator.swift; sourceTree = "<group>"; };
+		D61CFC7426F45B9000A325ED /* QQDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQDecorator.swift; sourceTree = "<group>"; };
+		D61CFC7626F470C300A325ED /* MailNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailNotifier.swift; sourceTree = "<group>"; };
+		D630AADB26FB774900D5ECC0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D646A43126D5DBAC005876F3 /* design-pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "design-pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646A43426D5DBAC005876F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D646A43626D5DBAC005876F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,11 +182,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D61CFC6A26F4567D00A325ED /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				D630AADB26FB774900D5ECC0 /* README.md */,
+				D61CFC6B26F459A900A325ED /* Notifier */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		D61CFC6B26F459A900A325ED /* Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				D61CFC6C26F459BE00A325ED /* Notifier.swift */,
+				D61CFC7626F470C300A325ED /* MailNotifier.swift */,
+				D61CFC6E26F45A0700A325ED /* BaseDecorator.swift */,
+				D61CFC7026F45A9E00A325ED /* SMSDecorator.swift */,
+				D61CFC7226F45B2B00A325ED /* WeChatDecorator.swift */,
+				D61CFC7426F45B9000A325ED /* QQDecorator.swift */,
+			);
+			path = Notifier;
+			sourceTree = "<group>";
+		};
 		D646A42826D5DBAC005876F3 = {
 			isa = PBXGroup;
 			children = (
 				D646A43326D5DBAC005876F3 /* design-pattern */,
-				D646A44626D5DBAD005876F3 /* design-patternTests */,
 				D646A45126D5DBAD005876F3 /* design-patternUITests */,
 				D646A43226D5DBAC005876F3 /* Products */,
 			);
@@ -201,10 +235,12 @@
 				D6EA0B2926DF3F4300C8B871 /* Adapter */,
 				D6C5F1EF26E0CA6E0041D621 /* Bridge */,
 				D6BAC6A226E1EA2B004FB3F0 /* Composite */,
+				D61CFC6A26F4567D00A325ED /* Decorator */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
 				D646A43A26D5DBAD005876F3 /* Main.storyboard */,
+				D646A44626D5DBAD005876F3 /* design-patternTests */,
 				D646A43D26D5DBAD005876F3 /* Info.plist */,
 				D646A43E26D5DBAD005876F3 /* design_pattern.entitlements */,
 			);
@@ -477,6 +513,9 @@
 				D6BAC6A726E1EBE0004FB3F0 /* Dot.swift in Sources */,
 				D6EA0B2E26DF411500C8B871 /* XMLAnalyzer.swift in Sources */,
 				D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */,
+				D61CFC7726F470C300A325ED /* MailNotifier.swift in Sources */,
+				D61CFC6F26F45A0700A325ED /* BaseDecorator.swift in Sources */,
+				D61CFC7326F45B2B00A325ED /* WeChatDecorator.swift in Sources */,
 				D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */,
 				D6EA0AE026D8B03A00C8B871 /* House.swift in Sources */,
 				D6EA0AB426D5EC5000C8B871 /* Creator.swift in Sources */,
@@ -486,6 +525,8 @@
 				D6BAC6A926E1EC5D004FB3F0 /* GCircle.swift in Sources */,
 				D6EA0AE426D8EF2F00C8B871 /* SmallHouse.swift in Sources */,
 				D6EA0AEA26D904CB00C8B871 /* Director.swift in Sources */,
+				D61CFC7126F45A9E00A325ED /* SMSDecorator.swift in Sources */,
+				D61CFC7526F45B9000A325ED /* QQDecorator.swift in Sources */,
 				D6EA0AD026D763C300C8B871 /* ChineseChair.swift in Sources */,
 				D6C5F1F826E0CFDE0041D621 /* Square.swift in Sources */,
 				D6EA0ADE26D8AF9E00C8B871 /* HouseBuilder.swift in Sources */,
@@ -500,6 +541,7 @@
 				D6EA0B2C26DF407100C8B871 /* XMLProcesser.swift in Sources */,
 				D6EA0ACA26D762AD00C8B871 /* ModernChair.swift in Sources */,
 				D6EA0AD426D7643300C8B871 /* ChineseStyleFurnitureFactory.swift in Sources */,
+				D61CFC6D26F459BE00A325ED /* Notifier.swift in Sources */,
 				D6EA0B3226DF447300C8B871 /* JSONServiceAdapter.swift in Sources */,
 				D6EA0ACE26D7634900C8B871 /* ModernStyleFurnitureFactory.swift in Sources */,
 				D6EA0AD826D764BE00C8B871 /* XXXSofa.swift in Sources */,
