@@ -11,6 +11,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Client.testFlyweight()
         Client.testFacade()
         Client.testDecorator()
         Client.testComposite()

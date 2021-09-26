@@ -147,4 +147,13 @@ class Client {
         let r = VideoConverter.covert(video: path, to: format)
         print("视频格式转换，so easy：\(r)")
     }
+    
+    static func testFlyweight() {
+        print("😁享元模式")
+        let forest = Forest()
+        forest.grow()
+        forest.grow()
+        forest.draw()
+        print("这里有很多树，但是占用的内存很小")
+    }
 }
