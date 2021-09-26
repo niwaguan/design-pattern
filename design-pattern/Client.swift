@@ -123,4 +123,28 @@ class Client {
         }
         notifier.send(message: "快来看啊，iPhone13大降价!")
     }
+    
+    static func testFacade() {
+        print("😁外观模式")
+        
+        let format = "ogg"
+        
+        let path = "/users/niwaguan/desktop/1.mp4"
+        let file = VideoFile(path: path)
+        let sourceCodec = CodecFactory().extract(file: file)
+        var targetCodec: Codec!
+        if format == "mp4" {
+            targetCodec = MPEG4CompressionCodec()
+        } else if format == "ogg" {
+            targetCodec = OggCompressionCodec()
+        }
+        let buffer = sourceCodec.decode(file: file)
+        let result = targetCodec.encode(buffer: buffer)
+        print("我了解了这个转换库的大多数对象，才能将一个视频转换为我想要的格式，好累啊！！！\(result)")
+        
+        print("突然发现这个库，提供了外观：VideoConverter")
+        
+        let r = VideoConverter.covert(video: path, to: format)
+        print("视频格式转换，so easy：\(r)")
+    }
 }

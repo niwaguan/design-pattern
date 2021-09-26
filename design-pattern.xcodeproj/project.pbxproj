@@ -19,6 +19,13 @@
 		D646A43C26D5DBAD005876F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646A43A26D5DBAD005876F3 /* Main.storyboard */; };
 		D646A44826D5DBAD005876F3 /* design_patternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A44726D5DBAD005876F3 /* design_patternTests.swift */; };
 		D646A45326D5DBAD005876F3 /* design_patternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A45226D5DBAD005876F3 /* design_patternUITests.swift */; };
+		D6BA91C827006AA400E75C7F /* VideoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91C727006AA400E75C7F /* VideoFile.swift */; };
+		D6BA91CA27006B2400E75C7F /* OggCompressionCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91C927006B2400E75C7F /* OggCompressionCodec.swift */; };
+		D6BA91CC27006B6500E75C7F /* MPEG4CompressionCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91CB27006B6500E75C7F /* MPEG4CompressionCodec.swift */; };
+		D6BA91CE27006B7900E75C7F /* CodecFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91CD27006B7900E75C7F /* CodecFactory.swift */; };
+		D6BA91D027006B8900E75C7F /* BitrateReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91CF27006B8900E75C7F /* BitrateReader.swift */; };
+		D6BA91D227006DA700E75C7F /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91D127006DA600E75C7F /* Codec.swift */; };
+		D6BA91D42700709800E75C7F /* VideoConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91D32700709800E75C7F /* VideoConverter.swift */; };
 		D6BAC6A526E1EB9A004FB3F0 /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A426E1EB9A004FB3F0 /* Graphic.swift */; };
 		D6BAC6A726E1EBE0004FB3F0 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A626E1EBE0004FB3F0 /* Dot.swift */; };
 		D6BAC6A926E1EC5D004FB3F0 /* GCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A826E1EC5D004FB3F0 /* GCircle.swift */; };
@@ -103,6 +110,14 @@
 		D646A44E26D5DBAD005876F3 /* design-patternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "design-patternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646A45226D5DBAD005876F3 /* design_patternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = design_patternUITests.swift; sourceTree = "<group>"; };
 		D646A45426D5DBAD005876F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6BA91C6270067B900E75C7F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6BA91C727006AA400E75C7F /* VideoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFile.swift; sourceTree = "<group>"; };
+		D6BA91C927006B2400E75C7F /* OggCompressionCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OggCompressionCodec.swift; sourceTree = "<group>"; };
+		D6BA91CB27006B6500E75C7F /* MPEG4CompressionCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPEG4CompressionCodec.swift; sourceTree = "<group>"; };
+		D6BA91CD27006B7900E75C7F /* CodecFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodecFactory.swift; sourceTree = "<group>"; };
+		D6BA91CF27006B8900E75C7F /* BitrateReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitrateReader.swift; sourceTree = "<group>"; };
+		D6BA91D127006DA600E75C7F /* Codec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
+		D6BA91D32700709800E75C7F /* VideoConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoConverter.swift; sourceTree = "<group>"; };
 		D6BAC6A326E1EA51004FB3F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6BAC6A426E1EB9A004FB3F0 /* Graphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
 		D6BAC6A626E1EBE0004FB3F0 /* Dot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
@@ -236,6 +251,7 @@
 				D6C5F1EF26E0CA6E0041D621 /* Bridge */,
 				D6BAC6A226E1EA2B004FB3F0 /* Composite */,
 				D61CFC6A26F4567D00A325ED /* Decorator */,
+				D6BA91C5270066C400E75C7F /* Facade */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -263,6 +279,21 @@
 				D646A45426D5DBAD005876F3 /* Info.plist */,
 			);
 			path = "design-patternUITests";
+			sourceTree = "<group>";
+		};
+		D6BA91C5270066C400E75C7F /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				D6BA91C6270067B900E75C7F /* README.md */,
+				D6BA91C727006AA400E75C7F /* VideoFile.swift */,
+				D6BA91D127006DA600E75C7F /* Codec.swift */,
+				D6BA91C927006B2400E75C7F /* OggCompressionCodec.swift */,
+				D6BA91CB27006B6500E75C7F /* MPEG4CompressionCodec.swift */,
+				D6BA91CD27006B7900E75C7F /* CodecFactory.swift */,
+				D6BA91CF27006B8900E75C7F /* BitrateReader.swift */,
+				D6BA91D32700709800E75C7F /* VideoConverter.swift */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 		D6BAC6A226E1EA2B004FB3F0 /* Composite */ = {
@@ -507,11 +538,14 @@
 				D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */,
 				D6C5F1FA26E0CFFC0041D621 /* RedColor.swift in Sources */,
 				D6C5F1FE26E0D10E0041D621 /* BlueColor.swift in Sources */,
+				D6BA91C827006AA400E75C7F /* VideoFile.swift in Sources */,
 				D6EA0AF326DC7E0200C8B871 /* Cat.swift in Sources */,
 				D6EA0AF726DCAD0A00C8B871 /* Singleton.swift in Sources */,
 				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
+				D6BA91D42700709800E75C7F /* VideoConverter.swift in Sources */,
 				D6BAC6A726E1EBE0004FB3F0 /* Dot.swift in Sources */,
 				D6EA0B2E26DF411500C8B871 /* XMLAnalyzer.swift in Sources */,
+				D6BA91D227006DA700E75C7F /* Codec.swift in Sources */,
 				D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */,
 				D61CFC7726F470C300A325ED /* MailNotifier.swift in Sources */,
 				D61CFC6F26F45A0700A325ED /* BaseDecorator.swift in Sources */,
@@ -525,8 +559,10 @@
 				D6BAC6A926E1EC5D004FB3F0 /* GCircle.swift in Sources */,
 				D6EA0AE426D8EF2F00C8B871 /* SmallHouse.swift in Sources */,
 				D6EA0AEA26D904CB00C8B871 /* Director.swift in Sources */,
+				D6BA91CC27006B6500E75C7F /* MPEG4CompressionCodec.swift in Sources */,
 				D61CFC7126F45A9E00A325ED /* SMSDecorator.swift in Sources */,
 				D61CFC7526F45B9000A325ED /* QQDecorator.swift in Sources */,
+				D6BA91D027006B8900E75C7F /* BitrateReader.swift in Sources */,
 				D6EA0AD026D763C300C8B871 /* ChineseChair.swift in Sources */,
 				D6C5F1F826E0CFDE0041D621 /* Square.swift in Sources */,
 				D6EA0ADE26D8AF9E00C8B871 /* HouseBuilder.swift in Sources */,
@@ -534,6 +570,7 @@
 				D6EA0ACC26D762F200C8B871 /* ModernSofa.swift in Sources */,
 				D6EA0B3026DF427000C8B871 /* JSONService.swift in Sources */,
 				D6EA0AB626D5EC8500C8B871 /* Product.swift in Sources */,
+				D6BA91CE27006B7900E75C7F /* CodecFactory.swift in Sources */,
 				D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */,
 				D646A43526D5DBAC005876F3 /* AppDelegate.swift in Sources */,
 				D6EA0ABA26D5ED3A00C8B871 /* ConcreteProduct1.swift in Sources */,
@@ -541,6 +578,7 @@
 				D6EA0B2C26DF407100C8B871 /* XMLProcesser.swift in Sources */,
 				D6EA0ACA26D762AD00C8B871 /* ModernChair.swift in Sources */,
 				D6EA0AD426D7643300C8B871 /* ChineseStyleFurnitureFactory.swift in Sources */,
+				D6BA91CA27006B2400E75C7F /* OggCompressionCodec.swift in Sources */,
 				D61CFC6D26F459BE00A325ED /* Notifier.swift in Sources */,
 				D6EA0B3226DF447300C8B871 /* JSONServiceAdapter.swift in Sources */,
 				D6EA0ACE26D7634900C8B871 /* ModernStyleFurnitureFactory.swift in Sources */,
