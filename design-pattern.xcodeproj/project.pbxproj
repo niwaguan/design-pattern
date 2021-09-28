@@ -33,6 +33,10 @@
 		D6BA92012701982D00E75C7F /* VideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA92002701982D00E75C7F /* VideoProvider.swift */; };
 		D6BA92032702F73500E75C7F /* TencentVideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA92022702F73500E75C7F /* TencentVideoProvider.swift */; };
 		D6BA92052702F7DC00E75C7F /* CacheVideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA92042702F7DC00E75C7F /* CacheVideoProvider.swift */; };
+		D6BA9235270335D700E75C7F /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA9234270335D700E75C7F /* Handler.swift */; };
+		D6BA9237270336B200E75C7F /* MonkeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA9236270336B200E75C7F /* MonkeyHandler.swift */; };
+		D6BA92392703371C00E75C7F /* SquirrelHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA92382703371C00E75C7F /* SquirrelHandler.swift */; };
+		D6BA923B2703376E00E75C7F /* DogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA923A2703376E00E75C7F /* DogHandler.swift */; };
 		D6BAC6A526E1EB9A004FB3F0 /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A426E1EB9A004FB3F0 /* Graphic.swift */; };
 		D6BAC6A726E1EBE0004FB3F0 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A626E1EBE0004FB3F0 /* Dot.swift */; };
 		D6BAC6A926E1EC5D004FB3F0 /* GCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A826E1EC5D004FB3F0 /* GCircle.swift */; };
@@ -134,6 +138,11 @@
 		D6BA92002701982D00E75C7F /* VideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProvider.swift; sourceTree = "<group>"; };
 		D6BA92022702F73500E75C7F /* TencentVideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TencentVideoProvider.swift; sourceTree = "<group>"; };
 		D6BA92042702F7DC00E75C7F /* CacheVideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheVideoProvider.swift; sourceTree = "<group>"; };
+		D6BA92072703146700E75C7F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6BA9234270335D700E75C7F /* Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
+		D6BA9236270336B200E75C7F /* MonkeyHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyHandler.swift; sourceTree = "<group>"; };
+		D6BA92382703371C00E75C7F /* SquirrelHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirrelHandler.swift; sourceTree = "<group>"; };
+		D6BA923A2703376E00E75C7F /* DogHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogHandler.swift; sourceTree = "<group>"; };
 		D6BAC6A326E1EA51004FB3F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6BAC6A426E1EB9A004FB3F0 /* Graphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
 		D6BAC6A626E1EBE0004FB3F0 /* Dot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
@@ -270,6 +279,7 @@
 				D6BA91C5270066C400E75C7F /* Facade */,
 				D6BA91D52700775600E75C7F /* Flyweight */,
 				D6BA91FA2701906800E75C7F /* Proxy */,
+				D6BA92062703137A00E75C7F /* ChainOfResponsibility */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -335,6 +345,18 @@
 				D6BA92042702F7DC00E75C7F /* CacheVideoProvider.swift */,
 			);
 			path = Proxy;
+			sourceTree = "<group>";
+		};
+		D6BA92062703137A00E75C7F /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				D6BA92072703146700E75C7F /* README.md */,
+				D6BA9234270335D700E75C7F /* Handler.swift */,
+				D6BA9236270336B200E75C7F /* MonkeyHandler.swift */,
+				D6BA92382703371C00E75C7F /* SquirrelHandler.swift */,
+				D6BA923A2703376E00E75C7F /* DogHandler.swift */,
+			);
+			path = ChainOfResponsibility;
 			sourceTree = "<group>";
 		};
 		D6BAC6A226E1EA2B004FB3F0 /* Composite */ = {
@@ -592,6 +614,7 @@
 				D6BA91DC27008A9E00E75C7F /* TreeFactory.swift in Sources */,
 				D61CFC7726F470C300A325ED /* MailNotifier.swift in Sources */,
 				D61CFC6F26F45A0700A325ED /* BaseDecorator.swift in Sources */,
+				D6BA9237270336B200E75C7F /* MonkeyHandler.swift in Sources */,
 				D61CFC7326F45B2B00A325ED /* WeChatDecorator.swift in Sources */,
 				D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */,
 				D6BA91D82700898600E75C7F /* TreeType.swift in Sources */,
@@ -599,6 +622,7 @@
 				D6EA0AB426D5EC5000C8B871 /* Creator.swift in Sources */,
 				D6C5F1F626E0CF940041D621 /* Color.swift in Sources */,
 				D6EA0AE226D8EED300C8B871 /* SmallHouseBuilder.swift in Sources */,
+				D6BA923B2703376E00E75C7F /* DogHandler.swift in Sources */,
 				D6EA0AE626D8F09200C8B871 /* PalaceBuilder.swift in Sources */,
 				D6BAC6A926E1EC5D004FB3F0 /* GCircle.swift in Sources */,
 				D6EA0AE426D8EF2F00C8B871 /* SmallHouse.swift in Sources */,
@@ -611,9 +635,11 @@
 				D6C5F1F826E0CFDE0041D621 /* Square.swift in Sources */,
 				D6EA0ADE26D8AF9E00C8B871 /* HouseBuilder.swift in Sources */,
 				D6BA92052702F7DC00E75C7F /* CacheVideoProvider.swift in Sources */,
+				D6BA9235270335D700E75C7F /* Handler.swift in Sources */,
 				D6BAC6AB26E1ECFD004FB3F0 /* GraphicContainer.swift in Sources */,
 				D6EA0ACC26D762F200C8B871 /* ModernSofa.swift in Sources */,
 				D6EA0B3026DF427000C8B871 /* JSONService.swift in Sources */,
+				D6BA92392703371C00E75C7F /* SquirrelHandler.swift in Sources */,
 				D6EA0AB626D5EC8500C8B871 /* Product.swift in Sources */,
 				D6BA91CE27006B7900E75C7F /* CodecFactory.swift in Sources */,
 				D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */,

@@ -163,4 +163,15 @@ class Client {
         let proxy = CacheVideoProvider(provider: videoProvider)
         print("我通过代理获取到了数据, \(proxy.getVideos())")
     }
+    
+    static func testChainOfResponsibility() {
+        print("😁责任链模式")
+        let handler = MonkeyHandler()
+        handler.setNext(SquirrelHandler()).setNext(DogHandler())
+        let food = ["Nut", "Banana", "Cup of coffee", "MeatBall"]
+        food.forEach { it in
+            let r = handler.handle(request: it)
+            print(r ?? "\(it) NOT HANDLED")
+        }
+    }
 }
