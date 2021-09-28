@@ -156,4 +156,11 @@ class Client {
         forest.draw()
         print("这里有很多树，但是占用的内存很小")
     }
+    
+    static func testProxy() {
+        print("😁代理（Proxy）模式")
+        let videoProvider: VideoProvider = TencentVideoProvider()
+        let proxy = CacheVideoProvider(provider: videoProvider)
+        print("我通过代理获取到了数据, \(proxy.getVideos())")
+    }
 }

@@ -30,6 +30,9 @@
 		D6BA91DA27008A1B00E75C7F /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91D927008A1B00E75C7F /* Tree.swift */; };
 		D6BA91DC27008A9E00E75C7F /* TreeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91DB27008A9E00E75C7F /* TreeFactory.swift */; };
 		D6BA91DE27008BE000E75C7F /* Forest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91DD27008BE000E75C7F /* Forest.swift */; };
+		D6BA92012701982D00E75C7F /* VideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA92002701982D00E75C7F /* VideoProvider.swift */; };
+		D6BA92032702F73500E75C7F /* TencentVideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA92022702F73500E75C7F /* TencentVideoProvider.swift */; };
+		D6BA92052702F7DC00E75C7F /* CacheVideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA92042702F7DC00E75C7F /* CacheVideoProvider.swift */; };
 		D6BAC6A526E1EB9A004FB3F0 /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A426E1EB9A004FB3F0 /* Graphic.swift */; };
 		D6BAC6A726E1EBE0004FB3F0 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A626E1EBE0004FB3F0 /* Dot.swift */; };
 		D6BAC6A926E1EC5D004FB3F0 /* GCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A826E1EC5D004FB3F0 /* GCircle.swift */; };
@@ -127,6 +130,10 @@
 		D6BA91D927008A1B00E75C7F /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		D6BA91DB27008A9E00E75C7F /* TreeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeFactory.swift; sourceTree = "<group>"; };
 		D6BA91DD27008BE000E75C7F /* Forest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forest.swift; sourceTree = "<group>"; };
+		D6BA91FB2701907D00E75C7F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6BA92002701982D00E75C7F /* VideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProvider.swift; sourceTree = "<group>"; };
+		D6BA92022702F73500E75C7F /* TencentVideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TencentVideoProvider.swift; sourceTree = "<group>"; };
+		D6BA92042702F7DC00E75C7F /* CacheVideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheVideoProvider.swift; sourceTree = "<group>"; };
 		D6BAC6A326E1EA51004FB3F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6BAC6A426E1EB9A004FB3F0 /* Graphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
 		D6BAC6A626E1EBE0004FB3F0 /* Dot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
@@ -262,6 +269,7 @@
 				D61CFC6A26F4567D00A325ED /* Decorator */,
 				D6BA91C5270066C400E75C7F /* Facade */,
 				D6BA91D52700775600E75C7F /* Flyweight */,
+				D6BA91FA2701906800E75C7F /* Proxy */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -316,6 +324,17 @@
 				D6BA91DD27008BE000E75C7F /* Forest.swift */,
 			);
 			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		D6BA91FA2701906800E75C7F /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				D6BA91FB2701907D00E75C7F /* README.md */,
+				D6BA92002701982D00E75C7F /* VideoProvider.swift */,
+				D6BA92022702F73500E75C7F /* TencentVideoProvider.swift */,
+				D6BA92042702F7DC00E75C7F /* CacheVideoProvider.swift */,
+			);
+			path = Proxy;
 			sourceTree = "<group>";
 		};
 		D6BAC6A226E1EA2B004FB3F0 /* Composite */ = {
@@ -591,6 +610,7 @@
 				D6EA0AD026D763C300C8B871 /* ChineseChair.swift in Sources */,
 				D6C5F1F826E0CFDE0041D621 /* Square.swift in Sources */,
 				D6EA0ADE26D8AF9E00C8B871 /* HouseBuilder.swift in Sources */,
+				D6BA92052702F7DC00E75C7F /* CacheVideoProvider.swift in Sources */,
 				D6BAC6AB26E1ECFD004FB3F0 /* GraphicContainer.swift in Sources */,
 				D6EA0ACC26D762F200C8B871 /* ModernSofa.swift in Sources */,
 				D6EA0B3026DF427000C8B871 /* JSONService.swift in Sources */,
@@ -602,7 +622,9 @@
 				D6C5F1FC26E0D0A80041D621 /* Circle.swift in Sources */,
 				D6EA0B2C26DF407100C8B871 /* XMLProcesser.swift in Sources */,
 				D6EA0ACA26D762AD00C8B871 /* ModernChair.swift in Sources */,
+				D6BA92012701982D00E75C7F /* VideoProvider.swift in Sources */,
 				D6EA0AD426D7643300C8B871 /* ChineseStyleFurnitureFactory.swift in Sources */,
+				D6BA92032702F73500E75C7F /* TencentVideoProvider.swift in Sources */,
 				D6BA91CA27006B2400E75C7F /* OggCompressionCodec.swift in Sources */,
 				D61CFC6D26F459BE00A325ED /* Notifier.swift in Sources */,
 				D6EA0B3226DF447300C8B871 /* JSONServiceAdapter.swift in Sources */,
