@@ -199,9 +199,24 @@ class Client {
         wordsCollection.append("B")
         wordsCollection.append("C")
         
-//        let iterator = wordsCollection.makeIterator()
+        //        let iterator = wordsCollection.makeIterator()
         for it in wordsCollection {
             print("word \(it)")
         }
+    }
+    
+    static func testMediator() {
+        let c1 = Component1()
+        let c2 = Component2()
+        
+        let mediator = ConcreteMediator(c1, c2)
+        
+        print("Client triggers operation A.")
+        c1.doA()
+        
+        print("\nClient triggers operation D.")
+        c2.doD()
+        
+        print(mediator)
     }
 }

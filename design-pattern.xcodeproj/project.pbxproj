@@ -15,6 +15,10 @@
 		D61CFC7726F470C300A325ED /* MailNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC7626F470C300A325ED /* MailNotifier.swift */; };
 		D632281B2710090700497EF0 /* Invoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632281A2710090700497EF0 /* Invoker.swift */; };
 		D632281F27101F2100497EF0 /* WordsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632281E27101F2100497EF0 /* WordsCollection.swift */; };
+		D63228602710587F00497EF0 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632285F2710587F00497EF0 /* Mediator.swift */; };
+		D6322862271058CF00497EF0 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6322861271058CF00497EF0 /* Component.swift */; };
+		D63228642710598D00497EF0 /* Component1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63228632710598D00497EF0 /* Component1.swift */; };
+		D632286627105A3300497EF0 /* Component2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632286527105A3300497EF0 /* Component2.swift */; };
 		D646A43526D5DBAC005876F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43426D5DBAC005876F3 /* AppDelegate.swift */; };
 		D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43626D5DBAC005876F3 /* ViewController.swift */; };
 		D646A43926D5DBAD005876F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D646A43826D5DBAD005876F3 /* Assets.xcassets */; };
@@ -118,6 +122,11 @@
 		D632281C2710161900497EF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D632281E27101F2100497EF0 /* WordsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsCollection.swift; sourceTree = "<group>"; };
 		D6322820271023A500497EF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D632285E2710484B00497EF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D632285F2710587F00497EF0 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		D6322861271058CF00497EF0 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		D63228632710598D00497EF0 /* Component1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component1.swift; sourceTree = "<group>"; };
+		D632286527105A3300497EF0 /* Component2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component2.swift; sourceTree = "<group>"; };
 		D646A43126D5DBAC005876F3 /* design-pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "design-pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646A43426D5DBAC005876F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D646A43626D5DBAC005876F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -267,6 +276,18 @@
 			path = Iterator;
 			sourceTree = "<group>";
 		};
+		D632285D2710475900497EF0 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				D632285E2710484B00497EF0 /* README.md */,
+				D632285F2710587F00497EF0 /* Mediator.swift */,
+				D6322861271058CF00497EF0 /* Component.swift */,
+				D63228632710598D00497EF0 /* Component1.swift */,
+				D632286527105A3300497EF0 /* Component2.swift */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
 		D646A42826D5DBAC005876F3 = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +326,7 @@
 				D6BA92062703137A00E75C7F /* ChainOfResponsibility */,
 				D6BA923C270409FC00E75C7F /* Command */,
 				D632281D27101EF000497EF0 /* Iterator */,
+				D632285D2710475900497EF0 /* Mediator */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -567,7 +589,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					D646A43026D5DBAC005876F3 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -636,6 +658,7 @@
 				D6BAC6A526E1EB9A004FB3F0 /* Graphic.swift in Sources */,
 				D6EA0AC626D75E5F00C8B871 /* Sofa.swift in Sources */,
 				D6BAC6AD26E1F35D004FB3F0 /* Editor.swift in Sources */,
+				D63228642710598D00497EF0 /* Component1.swift in Sources */,
 				D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */,
 				D6C5F1FA26E0CFFC0041D621 /* RedColor.swift in Sources */,
 				D6C5F1FE26E0D10E0041D621 /* BlueColor.swift in Sources */,
@@ -652,6 +675,7 @@
 				D6BA91D227006DA700E75C7F /* Codec.swift in Sources */,
 				D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */,
 				D6BA91DC27008A9E00E75C7F /* TreeFactory.swift in Sources */,
+				D6322862271058CF00497EF0 /* Component.swift in Sources */,
 				D61CFC7726F470C300A325ED /* MailNotifier.swift in Sources */,
 				D61CFC6F26F45A0700A325ED /* BaseDecorator.swift in Sources */,
 				D6BA9237270336B200E75C7F /* MonkeyHandler.swift in Sources */,
@@ -679,6 +703,7 @@
 				D6BA9235270335D700E75C7F /* Handler.swift in Sources */,
 				D6BA923E27040A6100E75C7F /* Command.swift in Sources */,
 				D632281B2710090700497EF0 /* Invoker.swift in Sources */,
+				D632286627105A3300497EF0 /* Component2.swift in Sources */,
 				D6BAC6AB26E1ECFD004FB3F0 /* GraphicContainer.swift in Sources */,
 				D6EA0ACC26D762F200C8B871 /* ModernSofa.swift in Sources */,
 				D6EA0B3026DF427000C8B871 /* JSONService.swift in Sources */,
@@ -702,6 +727,7 @@
 				D6EA0AD826D764BE00C8B871 /* XXXSofa.swift in Sources */,
 				D6EA0AB826D5ECFF00C8B871 /* ConcreteCreator1.swift in Sources */,
 				D6EA0ABC26D5EDF800C8B871 /* ConcreteCreator2.swift in Sources */,
+				D63228602710587F00497EF0 /* Mediator.swift in Sources */,
 				D6EA0AD626D7647F00C8B871 /* XXXChair.swift in Sources */,
 				D6C5F1F426E0CF120041D621 /* Shape.swift in Sources */,
 				D6EA0ABE26D5EE1700C8B871 /* ConcreteProduct2.swift in Sources */,
@@ -876,6 +902,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "design-pattern/design_pattern.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 65GEP5SQYY;
@@ -897,6 +924,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "design-pattern/design_pattern.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 65GEP5SQYY;
