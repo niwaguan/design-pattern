@@ -14,6 +14,7 @@
 		D61CFC7526F45B9000A325ED /* QQDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC7426F45B9000A325ED /* QQDecorator.swift */; };
 		D61CFC7726F470C300A325ED /* MailNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC7626F470C300A325ED /* MailNotifier.swift */; };
 		D632281B2710090700497EF0 /* Invoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632281A2710090700497EF0 /* Invoker.swift */; };
+		D632281F27101F2100497EF0 /* WordsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632281E27101F2100497EF0 /* WordsCollection.swift */; };
 		D646A43526D5DBAC005876F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43426D5DBAC005876F3 /* AppDelegate.swift */; };
 		D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43626D5DBAC005876F3 /* ViewController.swift */; };
 		D646A43926D5DBAD005876F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D646A43826D5DBAD005876F3 /* Assets.xcassets */; };
@@ -115,6 +116,8 @@
 		D630AADB26FB774900D5ECC0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D632281A2710090700497EF0 /* Invoker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoker.swift; sourceTree = "<group>"; };
 		D632281C2710161900497EF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D632281E27101F2100497EF0 /* WordsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsCollection.swift; sourceTree = "<group>"; };
+		D6322820271023A500497EF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D646A43126D5DBAC005876F3 /* design-pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "design-pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646A43426D5DBAC005876F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D646A43626D5DBAC005876F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -255,6 +258,15 @@
 			path = Notifier;
 			sourceTree = "<group>";
 		};
+		D632281D27101EF000497EF0 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				D6322820271023A500497EF0 /* README.md */,
+				D632281E27101F2100497EF0 /* WordsCollection.swift */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
 		D646A42826D5DBAC005876F3 = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +304,7 @@
 				D6BA91FA2701906800E75C7F /* Proxy */,
 				D6BA92062703137A00E75C7F /* ChainOfResponsibility */,
 				D6BA923C270409FC00E75C7F /* Command */,
+				D632281D27101EF000497EF0 /* Iterator */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -635,6 +648,7 @@
 				D6BA91DA27008A1B00E75C7F /* Tree.swift in Sources */,
 				D6BAC6A726E1EBE0004FB3F0 /* Dot.swift in Sources */,
 				D6EA0B2E26DF411500C8B871 /* XMLAnalyzer.swift in Sources */,
+				D632281F27101F2100497EF0 /* WordsCollection.swift in Sources */,
 				D6BA91D227006DA700E75C7F /* Codec.swift in Sources */,
 				D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */,
 				D6BA91DC27008A9E00E75C7F /* TreeFactory.swift in Sources */,

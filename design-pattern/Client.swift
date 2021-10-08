@@ -190,4 +190,18 @@ class Client {
         
         invoker.doSomethingImportant()
     }
+    
+    static func testIterator() {
+        print("😁迭代器模式")
+        
+        let wordsCollection = WordsCollection()
+        wordsCollection.append("A")
+        wordsCollection.append("B")
+        wordsCollection.append("C")
+        
+//        let iterator = wordsCollection.makeIterator()
+        for it in wordsCollection {
+            print("word \(it)")
+        }
+    }
 }
