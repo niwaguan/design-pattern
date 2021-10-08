@@ -11,6 +11,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Client.testCommand()
         Client.testChainOfResponsibility()
         Client.testProxy()
         Client.testFlyweight()

@@ -174,4 +174,20 @@ class Client {
             print(r ?? "\(it) NOT HANDLED")
         }
     }
+    
+    static func testCommand() {
+        print("😁命令模式")
+        
+        let invoker = Invoker()
+        invoker.onStart = SimpleCommand(playload: "Say hi!")
+        
+        let receiver = Receiver()
+        let complexCommand = ComplexCommand(receiver: receiver)
+        complexCommand.a = "Just A"
+        complexCommand.b = "Just B"
+        
+        invoker.onFinish = complexCommand
+        
+        invoker.doSomethingImportant()
+    }
 }

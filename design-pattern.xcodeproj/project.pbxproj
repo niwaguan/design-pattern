@@ -13,6 +13,7 @@
 		D61CFC7326F45B2B00A325ED /* WeChatDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC7226F45B2B00A325ED /* WeChatDecorator.swift */; };
 		D61CFC7526F45B9000A325ED /* QQDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC7426F45B9000A325ED /* QQDecorator.swift */; };
 		D61CFC7726F470C300A325ED /* MailNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CFC7626F470C300A325ED /* MailNotifier.swift */; };
+		D632281B2710090700497EF0 /* Invoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632281A2710090700497EF0 /* Invoker.swift */; };
 		D646A43526D5DBAC005876F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43426D5DBAC005876F3 /* AppDelegate.swift */; };
 		D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43626D5DBAC005876F3 /* ViewController.swift */; };
 		D646A43926D5DBAD005876F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D646A43826D5DBAD005876F3 /* Assets.xcassets */; };
@@ -37,6 +38,10 @@
 		D6BA9237270336B200E75C7F /* MonkeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA9236270336B200E75C7F /* MonkeyHandler.swift */; };
 		D6BA92392703371C00E75C7F /* SquirrelHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA92382703371C00E75C7F /* SquirrelHandler.swift */; };
 		D6BA923B2703376E00E75C7F /* DogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA923A2703376E00E75C7F /* DogHandler.swift */; };
+		D6BA923E27040A6100E75C7F /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA923D27040A6100E75C7F /* Command.swift */; };
+		D6BA924027040B1900E75C7F /* SimpleCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA923F27040B1900E75C7F /* SimpleCommand.swift */; };
+		D6BA924227040C1D00E75C7F /* ComplexCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA924127040C1D00E75C7F /* ComplexCommand.swift */; };
+		D6BA924427040CE100E75C7F /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA924327040CE100E75C7F /* Receiver.swift */; };
 		D6BAC6A526E1EB9A004FB3F0 /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A426E1EB9A004FB3F0 /* Graphic.swift */; };
 		D6BAC6A726E1EBE0004FB3F0 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A626E1EBE0004FB3F0 /* Dot.swift */; };
 		D6BAC6A926E1EC5D004FB3F0 /* GCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC6A826E1EC5D004FB3F0 /* GCircle.swift */; };
@@ -108,6 +113,8 @@
 		D61CFC7426F45B9000A325ED /* QQDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQDecorator.swift; sourceTree = "<group>"; };
 		D61CFC7626F470C300A325ED /* MailNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailNotifier.swift; sourceTree = "<group>"; };
 		D630AADB26FB774900D5ECC0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D632281A2710090700497EF0 /* Invoker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoker.swift; sourceTree = "<group>"; };
+		D632281C2710161900497EF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D646A43126D5DBAC005876F3 /* design-pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "design-pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646A43426D5DBAC005876F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D646A43626D5DBAC005876F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +150,10 @@
 		D6BA9236270336B200E75C7F /* MonkeyHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyHandler.swift; sourceTree = "<group>"; };
 		D6BA92382703371C00E75C7F /* SquirrelHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirrelHandler.swift; sourceTree = "<group>"; };
 		D6BA923A2703376E00E75C7F /* DogHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogHandler.swift; sourceTree = "<group>"; };
+		D6BA923D27040A6100E75C7F /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		D6BA923F27040B1900E75C7F /* SimpleCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCommand.swift; sourceTree = "<group>"; };
+		D6BA924127040C1D00E75C7F /* ComplexCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexCommand.swift; sourceTree = "<group>"; };
+		D6BA924327040CE100E75C7F /* Receiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receiver.swift; sourceTree = "<group>"; };
 		D6BAC6A326E1EA51004FB3F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6BAC6A426E1EB9A004FB3F0 /* Graphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
 		D6BAC6A626E1EBE0004FB3F0 /* Dot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
@@ -280,6 +291,7 @@
 				D6BA91D52700775600E75C7F /* Flyweight */,
 				D6BA91FA2701906800E75C7F /* Proxy */,
 				D6BA92062703137A00E75C7F /* ChainOfResponsibility */,
+				D6BA923C270409FC00E75C7F /* Command */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -357,6 +369,19 @@
 				D6BA923A2703376E00E75C7F /* DogHandler.swift */,
 			);
 			path = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		D6BA923C270409FC00E75C7F /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				D632281C2710161900497EF0 /* README.md */,
+				D6BA923D27040A6100E75C7F /* Command.swift */,
+				D6BA923F27040B1900E75C7F /* SimpleCommand.swift */,
+				D6BA924127040C1D00E75C7F /* ComplexCommand.swift */,
+				D6BA924327040CE100E75C7F /* Receiver.swift */,
+				D632281A2710090700497EF0 /* Invoker.swift */,
+			);
+			path = Command;
 			sourceTree = "<group>";
 		};
 		D6BAC6A226E1EA2B004FB3F0 /* Composite */ = {
@@ -602,6 +627,7 @@
 				D6C5F1FA26E0CFFC0041D621 /* RedColor.swift in Sources */,
 				D6C5F1FE26E0D10E0041D621 /* BlueColor.swift in Sources */,
 				D6BA91C827006AA400E75C7F /* VideoFile.swift in Sources */,
+				D6BA924027040B1900E75C7F /* SimpleCommand.swift in Sources */,
 				D6EA0AF326DC7E0200C8B871 /* Cat.swift in Sources */,
 				D6EA0AF726DCAD0A00C8B871 /* Singleton.swift in Sources */,
 				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
@@ -615,6 +641,7 @@
 				D61CFC7726F470C300A325ED /* MailNotifier.swift in Sources */,
 				D61CFC6F26F45A0700A325ED /* BaseDecorator.swift in Sources */,
 				D6BA9237270336B200E75C7F /* MonkeyHandler.swift in Sources */,
+				D6BA924227040C1D00E75C7F /* ComplexCommand.swift in Sources */,
 				D61CFC7326F45B2B00A325ED /* WeChatDecorator.swift in Sources */,
 				D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */,
 				D6BA91D82700898600E75C7F /* TreeType.swift in Sources */,
@@ -636,12 +663,15 @@
 				D6EA0ADE26D8AF9E00C8B871 /* HouseBuilder.swift in Sources */,
 				D6BA92052702F7DC00E75C7F /* CacheVideoProvider.swift in Sources */,
 				D6BA9235270335D700E75C7F /* Handler.swift in Sources */,
+				D6BA923E27040A6100E75C7F /* Command.swift in Sources */,
+				D632281B2710090700497EF0 /* Invoker.swift in Sources */,
 				D6BAC6AB26E1ECFD004FB3F0 /* GraphicContainer.swift in Sources */,
 				D6EA0ACC26D762F200C8B871 /* ModernSofa.swift in Sources */,
 				D6EA0B3026DF427000C8B871 /* JSONService.swift in Sources */,
 				D6BA92392703371C00E75C7F /* SquirrelHandler.swift in Sources */,
 				D6EA0AB626D5EC8500C8B871 /* Product.swift in Sources */,
 				D6BA91CE27006B7900E75C7F /* CodecFactory.swift in Sources */,
+				D6BA924427040CE100E75C7F /* Receiver.swift in Sources */,
 				D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */,
 				D646A43526D5DBAC005876F3 /* AppDelegate.swift in Sources */,
 				D6EA0ABA26D5ED3A00C8B871 /* ConcreteProduct1.swift in Sources */,
