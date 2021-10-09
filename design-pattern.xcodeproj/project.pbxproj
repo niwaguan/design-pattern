@@ -19,6 +19,9 @@
 		D6322862271058CF00497EF0 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6322861271058CF00497EF0 /* Component.swift */; };
 		D63228642710598D00497EF0 /* Component1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63228632710598D00497EF0 /* Component1.swift */; };
 		D632286627105A3300497EF0 /* Component2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632286527105A3300497EF0 /* Component2.swift */; };
+		D63228692711327C00497EF0 /* Originator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63228682711327C00497EF0 /* Originator.swift */; };
+		D632286B2711338200497EF0 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632286A2711338200497EF0 /* Memento.swift */; };
+		D632286D2711355200497EF0 /* Caretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632286C2711355200497EF0 /* Caretaker.swift */; };
 		D646A43526D5DBAC005876F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43426D5DBAC005876F3 /* AppDelegate.swift */; };
 		D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43626D5DBAC005876F3 /* ViewController.swift */; };
 		D646A43926D5DBAD005876F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D646A43826D5DBAD005876F3 /* Assets.xcassets */; };
@@ -127,6 +130,10 @@
 		D6322861271058CF00497EF0 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 		D63228632710598D00497EF0 /* Component1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component1.swift; sourceTree = "<group>"; };
 		D632286527105A3300497EF0 /* Component2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component2.swift; sourceTree = "<group>"; };
+		D63228682711327C00497EF0 /* Originator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Originator.swift; sourceTree = "<group>"; };
+		D632286A2711338200497EF0 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		D632286C2711355200497EF0 /* Caretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caretaker.swift; sourceTree = "<group>"; };
+		D632286E271154B800497EF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D646A43126D5DBAC005876F3 /* design-pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "design-pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646A43426D5DBAC005876F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D646A43626D5DBAC005876F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -288,6 +295,17 @@
 			path = Mediator;
 			sourceTree = "<group>";
 		};
+		D63228672711311600497EF0 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				D632286E271154B800497EF0 /* README.md */,
+				D63228682711327C00497EF0 /* Originator.swift */,
+				D632286A2711338200497EF0 /* Memento.swift */,
+				D632286C2711355200497EF0 /* Caretaker.swift */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
 		D646A42826D5DBAC005876F3 = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +345,7 @@
 				D6BA923C270409FC00E75C7F /* Command */,
 				D632281D27101EF000497EF0 /* Iterator */,
 				D632285D2710475900497EF0 /* Mediator */,
+				D63228672711311600497EF0 /* Memento */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -657,6 +676,7 @@
 			files = (
 				D6BAC6A526E1EB9A004FB3F0 /* Graphic.swift in Sources */,
 				D6EA0AC626D75E5F00C8B871 /* Sofa.swift in Sources */,
+				D632286D2711355200497EF0 /* Caretaker.swift in Sources */,
 				D6BAC6AD26E1F35D004FB3F0 /* Editor.swift in Sources */,
 				D63228642710598D00497EF0 /* Component1.swift in Sources */,
 				D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */,
@@ -664,6 +684,7 @@
 				D6C5F1FE26E0D10E0041D621 /* BlueColor.swift in Sources */,
 				D6BA91C827006AA400E75C7F /* VideoFile.swift in Sources */,
 				D6BA924027040B1900E75C7F /* SimpleCommand.swift in Sources */,
+				D63228692711327C00497EF0 /* Originator.swift in Sources */,
 				D6EA0AF326DC7E0200C8B871 /* Cat.swift in Sources */,
 				D6EA0AF726DCAD0A00C8B871 /* Singleton.swift in Sources */,
 				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
@@ -735,6 +756,7 @@
 				D6BA91DE27008BE000E75C7F /* Forest.swift in Sources */,
 				D6EA0AC026D5EED000C8B871 /* Client.swift in Sources */,
 				D6EA0AC426D75E1E00C8B871 /* Chair.swift in Sources */,
+				D632286B2711338200497EF0 /* Memento.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

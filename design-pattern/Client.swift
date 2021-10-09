@@ -206,6 +206,8 @@ class Client {
     }
     
     static func testMediator() {
+        print("😁中介者模式")
+        
         let c1 = Component1()
         let c2 = Component2()
         
@@ -218,5 +220,29 @@ class Client {
         c2.doD()
         
         print(mediator)
+    }
+    
+    static func testMemento() {
+        print("😁备忘录模式")
+        let originator = Originator(state: "Super-duper-super-puper-super.")
+        let caretaker = Caretaker(originator: originator)
+        
+        caretaker.backup()
+        originator.doSomething()
+
+        caretaker.backup()
+        originator.doSomething()
+
+        caretaker.backup()
+        originator.doSomething()
+
+        print("\n")
+        caretaker.showHistory()
+
+        print("\nClient: Now, let's rollback!\n\n")
+        caretaker.undo()
+
+        print("\nClient: Once more!\n\n")
+        caretaker.undo()
     }
 }
