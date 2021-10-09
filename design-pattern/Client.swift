@@ -245,4 +245,21 @@ class Client {
         print("\nClient: Once more!\n\n")
         caretaker.undo()
     }
+    
+    static func testObserver() {
+        print("😁观察者模式")
+        let subject = Subject()
+        
+        let o1 = GreaterthenThreeObserver()
+        let o2 = LessthenThreeObserver()
+        
+        subject.attach(o1)
+        subject.attach(o2)
+        
+        subject.someBusinessLogic()
+        
+        subject.detach(o2)
+        
+        subject.someBusinessLogic()
+    }
 }

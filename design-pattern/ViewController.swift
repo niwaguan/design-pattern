@@ -11,6 +11,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Client.testObserver()
         Client.testMemento()
         Client.testMediator()
         Client.testIterator()

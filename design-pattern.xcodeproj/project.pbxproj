@@ -22,6 +22,10 @@
 		D63228692711327C00497EF0 /* Originator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63228682711327C00497EF0 /* Originator.swift */; };
 		D632286B2711338200497EF0 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632286A2711338200497EF0 /* Memento.swift */; };
 		D632286D2711355200497EF0 /* Caretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632286C2711355200497EF0 /* Caretaker.swift */; };
+		D63228712711594D00497EF0 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63228702711594D00497EF0 /* Subject.swift */; };
+		D63228732711599400497EF0 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63228722711599400497EF0 /* Observer.swift */; };
+		D632287527115AC800497EF0 /* GreaterthenThreeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632287427115AC800497EF0 /* GreaterthenThreeObserver.swift */; };
+		D632287727115B1600497EF0 /* LessthenThreeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632287627115B1600497EF0 /* LessthenThreeObserver.swift */; };
 		D646A43526D5DBAC005876F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43426D5DBAC005876F3 /* AppDelegate.swift */; };
 		D646A43726D5DBAC005876F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A43626D5DBAC005876F3 /* ViewController.swift */; };
 		D646A43926D5DBAD005876F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D646A43826D5DBAD005876F3 /* Assets.xcassets */; };
@@ -134,6 +138,11 @@
 		D632286A2711338200497EF0 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
 		D632286C2711355200497EF0 /* Caretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caretaker.swift; sourceTree = "<group>"; };
 		D632286E271154B800497EF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D63228702711594D00497EF0 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		D63228722711599400497EF0 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		D632287427115AC800497EF0 /* GreaterthenThreeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreaterthenThreeObserver.swift; sourceTree = "<group>"; };
+		D632287627115B1600497EF0 /* LessthenThreeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessthenThreeObserver.swift; sourceTree = "<group>"; };
+		D632287827115BD400497EF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D646A43126D5DBAC005876F3 /* design-pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "design-pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646A43426D5DBAC005876F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D646A43626D5DBAC005876F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -306,6 +315,18 @@
 			path = Memento;
 			sourceTree = "<group>";
 		};
+		D632286F2711591200497EF0 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				D632287827115BD400497EF0 /* README.md */,
+				D63228702711594D00497EF0 /* Subject.swift */,
+				D63228722711599400497EF0 /* Observer.swift */,
+				D632287427115AC800497EF0 /* GreaterthenThreeObserver.swift */,
+				D632287627115B1600497EF0 /* LessthenThreeObserver.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
 		D646A42826D5DBAC005876F3 = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +367,7 @@
 				D632281D27101EF000497EF0 /* Iterator */,
 				D632285D2710475900497EF0 /* Mediator */,
 				D63228672711311600497EF0 /* Memento */,
+				D632286F2711591200497EF0 /* Observer */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -680,6 +702,7 @@
 				D6BAC6AD26E1F35D004FB3F0 /* Editor.swift in Sources */,
 				D63228642710598D00497EF0 /* Component1.swift in Sources */,
 				D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */,
+				D63228732711599400497EF0 /* Observer.swift in Sources */,
 				D6C5F1FA26E0CFFC0041D621 /* RedColor.swift in Sources */,
 				D6C5F1FE26E0D10E0041D621 /* BlueColor.swift in Sources */,
 				D6BA91C827006AA400E75C7F /* VideoFile.swift in Sources */,
@@ -690,6 +713,7 @@
 				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
 				D6BA91D42700709800E75C7F /* VideoConverter.swift in Sources */,
 				D6BA91DA27008A1B00E75C7F /* Tree.swift in Sources */,
+				D63228712711594D00497EF0 /* Subject.swift in Sources */,
 				D6BAC6A726E1EBE0004FB3F0 /* Dot.swift in Sources */,
 				D6EA0B2E26DF411500C8B871 /* XMLAnalyzer.swift in Sources */,
 				D632281F27101F2100497EF0 /* WordsCollection.swift in Sources */,
@@ -700,9 +724,11 @@
 				D61CFC7726F470C300A325ED /* MailNotifier.swift in Sources */,
 				D61CFC6F26F45A0700A325ED /* BaseDecorator.swift in Sources */,
 				D6BA9237270336B200E75C7F /* MonkeyHandler.swift in Sources */,
+				D632287527115AC800497EF0 /* GreaterthenThreeObserver.swift in Sources */,
 				D6BA924227040C1D00E75C7F /* ComplexCommand.swift in Sources */,
 				D61CFC7326F45B2B00A325ED /* WeChatDecorator.swift in Sources */,
 				D6EA0AC826D75ED900C8B871 /* FurnitureFactory.swift in Sources */,
+				D632287727115B1600497EF0 /* LessthenThreeObserver.swift in Sources */,
 				D6BA91D82700898600E75C7F /* TreeType.swift in Sources */,
 				D6EA0AE026D8B03A00C8B871 /* House.swift in Sources */,
 				D6EA0AB426D5EC5000C8B871 /* Creator.swift in Sources */,
