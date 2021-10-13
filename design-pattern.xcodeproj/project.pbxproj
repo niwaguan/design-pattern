@@ -32,6 +32,11 @@
 		D646A43C26D5DBAD005876F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646A43A26D5DBAD005876F3 /* Main.storyboard */; };
 		D646A44826D5DBAD005876F3 /* design_patternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A44726D5DBAD005876F3 /* design_patternTests.swift */; };
 		D646A45326D5DBAD005876F3 /* design_patternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646A45226D5DBAD005876F3 /* design_patternUITests.swift */; };
+		D658E64327169C0A00E70A0F /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658E64227169C0A00E70A0F /* AudioPlayer.swift */; };
+		D658E64527169C3200E70A0F /* AudioPlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658E64427169C3200E70A0F /* AudioPlayerState.swift */; };
+		D658E64727169D0C00E70A0F /* AudioPlayerReadyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658E64627169D0C00E70A0F /* AudioPlayerReadyState.swift */; };
+		D658E64927169DD200E70A0F /* AudioPlayerLockedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658E64827169DD200E70A0F /* AudioPlayerLockedState.swift */; };
+		D658E64B27169E0700E70A0F /* AudioPlayerPlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658E64A27169E0700E70A0F /* AudioPlayerPlayingState.swift */; };
 		D6BA91C827006AA400E75C7F /* VideoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91C727006AA400E75C7F /* VideoFile.swift */; };
 		D6BA91CA27006B2400E75C7F /* OggCompressionCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91C927006B2400E75C7F /* OggCompressionCodec.swift */; };
 		D6BA91CC27006B6500E75C7F /* MPEG4CompressionCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91CB27006B6500E75C7F /* MPEG4CompressionCodec.swift */; };
@@ -156,6 +161,12 @@
 		D646A44E26D5DBAD005876F3 /* design-patternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "design-patternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646A45226D5DBAD005876F3 /* design_patternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = design_patternUITests.swift; sourceTree = "<group>"; };
 		D646A45426D5DBAD005876F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D658E64227169C0A00E70A0F /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		D658E64427169C3200E70A0F /* AudioPlayerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerState.swift; sourceTree = "<group>"; };
+		D658E64627169D0C00E70A0F /* AudioPlayerReadyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerReadyState.swift; sourceTree = "<group>"; };
+		D658E64827169DD200E70A0F /* AudioPlayerLockedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerLockedState.swift; sourceTree = "<group>"; };
+		D658E64A27169E0700E70A0F /* AudioPlayerPlayingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerPlayingState.swift; sourceTree = "<group>"; };
+		D658E64F2716D64100E70A0F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6BA91C6270067B900E75C7F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6BA91C727006AA400E75C7F /* VideoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFile.swift; sourceTree = "<group>"; };
 		D6BA91C927006B2400E75C7F /* OggCompressionCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OggCompressionCodec.swift; sourceTree = "<group>"; };
@@ -368,6 +379,7 @@
 				D632285D2710475900497EF0 /* Mediator */,
 				D63228672711311600497EF0 /* Memento */,
 				D632286F2711591200497EF0 /* Observer */,
+				D658E64127169BE100E70A0F /* State */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -395,6 +407,19 @@
 				D646A45426D5DBAD005876F3 /* Info.plist */,
 			);
 			path = "design-patternUITests";
+			sourceTree = "<group>";
+		};
+		D658E64127169BE100E70A0F /* State */ = {
+			isa = PBXGroup;
+			children = (
+				D658E64F2716D64100E70A0F /* README.md */,
+				D658E64227169C0A00E70A0F /* AudioPlayer.swift */,
+				D658E64427169C3200E70A0F /* AudioPlayerState.swift */,
+				D658E64627169D0C00E70A0F /* AudioPlayerReadyState.swift */,
+				D658E64827169DD200E70A0F /* AudioPlayerLockedState.swift */,
+				D658E64A27169E0700E70A0F /* AudioPlayerPlayingState.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 		D6BA91C5270066C400E75C7F /* Facade */ = {
@@ -699,10 +724,12 @@
 				D6BAC6A526E1EB9A004FB3F0 /* Graphic.swift in Sources */,
 				D6EA0AC626D75E5F00C8B871 /* Sofa.swift in Sources */,
 				D632286D2711355200497EF0 /* Caretaker.swift in Sources */,
+				D658E64927169DD200E70A0F /* AudioPlayerLockedState.swift in Sources */,
 				D6BAC6AD26E1F35D004FB3F0 /* Editor.swift in Sources */,
 				D63228642710598D00497EF0 /* Component1.swift in Sources */,
 				D6EA0ADA26D7650200C8B871 /* XXXStyleFurnitureFactory.swift in Sources */,
 				D63228732711599400497EF0 /* Observer.swift in Sources */,
+				D658E64727169D0C00E70A0F /* AudioPlayerReadyState.swift in Sources */,
 				D6C5F1FA26E0CFFC0041D621 /* RedColor.swift in Sources */,
 				D6C5F1FE26E0D10E0041D621 /* BlueColor.swift in Sources */,
 				D6BA91C827006AA400E75C7F /* VideoFile.swift in Sources */,
@@ -718,6 +745,7 @@
 				D6EA0B2E26DF411500C8B871 /* XMLAnalyzer.swift in Sources */,
 				D632281F27101F2100497EF0 /* WordsCollection.swift in Sources */,
 				D6BA91D227006DA700E75C7F /* Codec.swift in Sources */,
+				D658E64B27169E0700E70A0F /* AudioPlayerPlayingState.swift in Sources */,
 				D6EA0AF126DC7CCE00C8B871 /* Animal.swift in Sources */,
 				D6BA91DC27008A9E00E75C7F /* TreeFactory.swift in Sources */,
 				D6322862271058CF00497EF0 /* Component.swift in Sources */,
@@ -731,6 +759,8 @@
 				D632287727115B1600497EF0 /* LessthenThreeObserver.swift in Sources */,
 				D6BA91D82700898600E75C7F /* TreeType.swift in Sources */,
 				D6EA0AE026D8B03A00C8B871 /* House.swift in Sources */,
+				D658E64327169C0A00E70A0F /* AudioPlayer.swift in Sources */,
+				D658E64527169C3200E70A0F /* AudioPlayerState.swift in Sources */,
 				D6EA0AB426D5EC5000C8B871 /* Creator.swift in Sources */,
 				D6C5F1F626E0CF940041D621 /* Color.swift in Sources */,
 				D6EA0AE226D8EED300C8B871 /* SmallHouseBuilder.swift in Sources */,

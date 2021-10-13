@@ -262,4 +262,13 @@ class Client {
         
         subject.someBusinessLogic()
     }
+    
+    static func testState() {
+        print("😁状态模式")
+        let player = AudioPlayer()
+        player.clickPlay()
+        player.clickNext()
+        player.clickLock()
+        player.clickLock()
+    }
 }
