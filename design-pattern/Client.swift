@@ -271,4 +271,12 @@ class Client {
         player.clickLock()
         player.clickLock()
     }
+    
+    static func testStrategy() {
+        print("😁策略模式")
+        let navigator = Navigator()
+        navigator.buildWalkRoute()
+        navigator.buildRoadRoute()
+        navigator.buildPublicTransportRoute()
+    }
 }
