@@ -388,8 +388,8 @@
 			isa = PBXGroup;
 			children = (
 				D6EA0ABF26D5EED000C8B871 /* Client.swift */,
-				D6EA0AC126D7590F00C8B871 /* AbstractFactory */,
 				D6EA0AB126D5EBDE00C8B871 /* FactoryMethod */,
+				D6EA0AC126D7590F00C8B871 /* AbstractFactory */,
 				D6EA0ADB26D8A95600C8B871 /* Builder */,
 				D6EA0AEE26DC737D00C8B871 /* Prototype */,
 				D6EA0AF426DCAB6C00C8B871 /* Singleton */,
