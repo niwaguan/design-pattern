@@ -42,6 +42,8 @@
 		D6A7949B2719833700252D72 /* RoadStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7949A2719833700252D72 /* RoadStrategy.swift */; };
 		D6A7949D2719839D00252D72 /* PublicTransportStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7949C2719839D00252D72 /* PublicTransportStrategy.swift */; };
 		D6A7949F2719842A00252D72 /* WalkingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7949E2719842A00252D72 /* WalkingStrategy.swift */; };
+		D6A79528271A9CA300252D72 /* DataMiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A79527271A9CA300252D72 /* DataMiner.swift */; };
+		D6A7952A271AEF2700252D72 /* PDFMiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A79529271AEF2700252D72 /* PDFMiner.swift */; };
 		D6BA91C827006AA400E75C7F /* VideoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91C727006AA400E75C7F /* VideoFile.swift */; };
 		D6BA91CA27006B2400E75C7F /* OggCompressionCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91C927006B2400E75C7F /* OggCompressionCodec.swift */; };
 		D6BA91CC27006B6500E75C7F /* MPEG4CompressionCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91CB27006B6500E75C7F /* MPEG4CompressionCodec.swift */; };
@@ -178,6 +180,9 @@
 		D6A7949C2719839D00252D72 /* PublicTransportStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicTransportStrategy.swift; sourceTree = "<group>"; };
 		D6A7949E2719842A00252D72 /* WalkingStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingStrategy.swift; sourceTree = "<group>"; };
 		D6A794A027198E6F00252D72 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6A79527271A9CA300252D72 /* DataMiner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMiner.swift; sourceTree = "<group>"; };
+		D6A79529271AEF2700252D72 /* PDFMiner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFMiner.swift; sourceTree = "<group>"; };
+		D6A7952B271D179D00252D72 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6BA91C6270067B900E75C7F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6BA91C727006AA400E75C7F /* VideoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFile.swift; sourceTree = "<group>"; };
 		D6BA91C927006B2400E75C7F /* OggCompressionCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OggCompressionCodec.swift; sourceTree = "<group>"; };
@@ -392,6 +397,7 @@
 				D632286F2711591200497EF0 /* Observer */,
 				D658E64127169BE100E70A0F /* State */,
 				D6A79495271981DB00252D72 /* Strategy */,
+				D6A79526271A9C4F00252D72 /* TemplateMethod */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -445,6 +451,16 @@
 				D6A7949E2719842A00252D72 /* WalkingStrategy.swift */,
 			);
 			path = Strategy;
+			sourceTree = "<group>";
+		};
+		D6A79526271A9C4F00252D72 /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7952B271D179D00252D72 /* README.md */,
+				D6A79527271A9CA300252D72 /* DataMiner.swift */,
+				D6A79529271AEF2700252D72 /* PDFMiner.swift */,
+			);
+			path = TemplateMethod;
 			sourceTree = "<group>";
 		};
 		D6BA91C5270066C400E75C7F /* Facade */ = {
@@ -767,6 +783,7 @@
 				D6EA0AD226D7640000C8B871 /* ChineseSofa.swift in Sources */,
 				D6BA91D42700709800E75C7F /* VideoConverter.swift in Sources */,
 				D6BA91DA27008A1B00E75C7F /* Tree.swift in Sources */,
+				D6A79528271A9CA300252D72 /* DataMiner.swift in Sources */,
 				D63228712711594D00497EF0 /* Subject.swift in Sources */,
 				D6BAC6A726E1EBE0004FB3F0 /* Dot.swift in Sources */,
 				D6EA0B2E26DF411500C8B871 /* XMLAnalyzer.swift in Sources */,
@@ -843,6 +860,7 @@
 				D6EA0AC026D5EED000C8B871 /* Client.swift in Sources */,
 				D6EA0AC426D75E1E00C8B871 /* Chair.swift in Sources */,
 				D632286B2711338200497EF0 /* Memento.swift in Sources */,
+				D6A7952A271AEF2700252D72 /* PDFMiner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
