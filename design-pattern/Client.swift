@@ -279,4 +279,17 @@ class Client {
         navigator.buildRoadRoute()
         navigator.buildPublicTransportRoute()
     }
+    
+    static func testVisitor() {
+        print("😁访问者模式")
+        let square = Square()
+        square.color = RedColor()
+        
+        let circle = Circle()
+        circle.r = 1.0
+        
+        let visitor = XMLExportVisitor()
+        square.accept(visitor: visitor)
+        circle.accept(visitor: visitor)
+    }
 }

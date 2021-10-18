@@ -11,6 +11,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Client.testVisitor()
         Client.testStrategy()
         Client.testState()
         Client.testObserver()

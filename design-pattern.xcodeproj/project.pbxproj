@@ -44,6 +44,11 @@
 		D6A7949F2719842A00252D72 /* WalkingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7949E2719842A00252D72 /* WalkingStrategy.swift */; };
 		D6A79528271A9CA300252D72 /* DataMiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A79527271A9CA300252D72 /* DataMiner.swift */; };
 		D6A7952A271AEF2700252D72 /* PDFMiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A79529271AEF2700252D72 /* PDFMiner.swift */; };
+		D6A7952E271D1D7900252D72 /* Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7952D271D1D7900252D72 /* Visitable.swift */; };
+		D6A79530271D1D9A00252D72 /* ShapeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7952F271D1D9A00252D72 /* ShapeVisitor.swift */; };
+		D6A79532271D201100252D72 /* Square+Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A79531271D201100252D72 /* Square+Visitable.swift */; };
+		D6A79534271D203200252D72 /* Circle+Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A79533271D203100252D72 /* Circle+Visitable.swift */; };
+		D6A79536271D207A00252D72 /* XMLExportVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A79535271D207A00252D72 /* XMLExportVisitor.swift */; };
 		D6BA91C827006AA400E75C7F /* VideoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91C727006AA400E75C7F /* VideoFile.swift */; };
 		D6BA91CA27006B2400E75C7F /* OggCompressionCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91C927006B2400E75C7F /* OggCompressionCodec.swift */; };
 		D6BA91CC27006B6500E75C7F /* MPEG4CompressionCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA91CB27006B6500E75C7F /* MPEG4CompressionCodec.swift */; };
@@ -183,6 +188,12 @@
 		D6A79527271A9CA300252D72 /* DataMiner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMiner.swift; sourceTree = "<group>"; };
 		D6A79529271AEF2700252D72 /* PDFMiner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFMiner.swift; sourceTree = "<group>"; };
 		D6A7952B271D179D00252D72 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6A7952D271D1D7900252D72 /* Visitable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitable.swift; sourceTree = "<group>"; };
+		D6A7952F271D1D9A00252D72 /* ShapeVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeVisitor.swift; sourceTree = "<group>"; };
+		D6A79531271D201100252D72 /* Square+Visitable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Square+Visitable.swift"; sourceTree = "<group>"; };
+		D6A79533271D203100252D72 /* Circle+Visitable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Circle+Visitable.swift"; sourceTree = "<group>"; };
+		D6A79535271D207A00252D72 /* XMLExportVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLExportVisitor.swift; sourceTree = "<group>"; };
+		D6A79537271D221E00252D72 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6BA91C6270067B900E75C7F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6BA91C727006AA400E75C7F /* VideoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFile.swift; sourceTree = "<group>"; };
 		D6BA91C927006B2400E75C7F /* OggCompressionCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OggCompressionCodec.swift; sourceTree = "<group>"; };
@@ -398,6 +409,7 @@
 				D658E64127169BE100E70A0F /* State */,
 				D6A79495271981DB00252D72 /* Strategy */,
 				D6A79526271A9C4F00252D72 /* TemplateMethod */,
+				D6A7952C271D195100252D72 /* Visitor */,
 				D646A43426D5DBAC005876F3 /* AppDelegate.swift */,
 				D646A43626D5DBAC005876F3 /* ViewController.swift */,
 				D646A43826D5DBAD005876F3 /* Assets.xcassets */,
@@ -461,6 +473,19 @@
 				D6A79529271AEF2700252D72 /* PDFMiner.swift */,
 			);
 			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
+		D6A7952C271D195100252D72 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				D6A79537271D221E00252D72 /* README.md */,
+				D6A7952F271D1D9A00252D72 /* ShapeVisitor.swift */,
+				D6A7952D271D1D7900252D72 /* Visitable.swift */,
+				D6A79531271D201100252D72 /* Square+Visitable.swift */,
+				D6A79533271D203100252D72 /* Circle+Visitable.swift */,
+				D6A79535271D207A00252D72 /* XMLExportVisitor.swift */,
+			);
+			path = Visitor;
 			sourceTree = "<group>";
 		};
 		D6BA91C5270066C400E75C7F /* Facade */ = {
@@ -774,6 +799,7 @@
 				D658E64727169D0C00E70A0F /* AudioPlayerReadyState.swift in Sources */,
 				D6C5F1FA26E0CFFC0041D621 /* RedColor.swift in Sources */,
 				D6C5F1FE26E0D10E0041D621 /* BlueColor.swift in Sources */,
+				D6A79536271D207A00252D72 /* XMLExportVisitor.swift in Sources */,
 				D6A79497271981FC00252D72 /* Navigator.swift in Sources */,
 				D6BA91C827006AA400E75C7F /* VideoFile.swift in Sources */,
 				D6BA924027040B1900E75C7F /* SimpleCommand.swift in Sources */,
@@ -823,9 +849,11 @@
 				D6C5F1F826E0CFDE0041D621 /* Square.swift in Sources */,
 				D6EA0ADE26D8AF9E00C8B871 /* HouseBuilder.swift in Sources */,
 				D6BA92052702F7DC00E75C7F /* CacheVideoProvider.swift in Sources */,
+				D6A7952E271D1D7900252D72 /* Visitable.swift in Sources */,
 				D6BA9235270335D700E75C7F /* Handler.swift in Sources */,
 				D6BA923E27040A6100E75C7F /* Command.swift in Sources */,
 				D632281B2710090700497EF0 /* Invoker.swift in Sources */,
+				D6A79530271D1D9A00252D72 /* ShapeVisitor.swift in Sources */,
 				D6A7949B2719833700252D72 /* RoadStrategy.swift in Sources */,
 				D632286627105A3300497EF0 /* Component2.swift in Sources */,
 				D6BAC6AB26E1ECFD004FB3F0 /* GraphicContainer.swift in Sources */,
@@ -840,8 +868,10 @@
 				D6EA0ABA26D5ED3A00C8B871 /* ConcreteProduct1.swift in Sources */,
 				D6C5F1FC26E0D0A80041D621 /* Circle.swift in Sources */,
 				D6EA0B2C26DF407100C8B871 /* XMLProcesser.swift in Sources */,
+				D6A79532271D201100252D72 /* Square+Visitable.swift in Sources */,
 				D6EA0ACA26D762AD00C8B871 /* ModernChair.swift in Sources */,
 				D6BA92012701982D00E75C7F /* VideoProvider.swift in Sources */,
+				D6A79534271D203200252D72 /* Circle+Visitable.swift in Sources */,
 				D6EA0AD426D7643300C8B871 /* ChineseStyleFurnitureFactory.swift in Sources */,
 				D6BA92032702F73500E75C7F /* TencentVideoProvider.swift in Sources */,
 				D6BA91CA27006B2400E75C7F /* OggCompressionCodec.swift in Sources */,
